@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://happy-bi.github.io/sitemap.xml
