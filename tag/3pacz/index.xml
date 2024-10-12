@@ -1,28 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>3PACz | Huan BI(毕欢)</title>
-    <link>https://happy-bi.github.io/tag/3pacz/</link>
-      <atom:link href="https://happy-bi.github.io/tag/3pacz/index.xml" rel="self" type="application/rss+xml" />
+    <title>3PACz | Huan BI</title>
+    <link>/tag/3pacz/</link>
+      <atom:link href="/tag/3pacz/index.xml" rel="self" type="application/rss+xml" />
     <description>3PACz</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 24 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>@ 2024 Huan BI. Built with [Hugo](https://gohugo.io/) and the [Wowchemy](https://wowchemy.com/) theme. Any copying or downloading of any images on this page for any promotional purpose must first be approved by Bi Huan, otherwise it will be regarded as an infringement. 任何拷贝或下载任何本网页的图片用于任何宣传的行为，必须先得到毕欢的许可，否则将会被视为是侵权行为。</copyright><lastBuildDate>Thu, 24 Aug 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://happy-bi.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>3PACz</title>
-      <link>https://happy-bi.github.io/tag/3pacz/</link>
+      <link>/tag/3pacz/</link>
     </image>
     
     <item>
       <title>All-Perovskite Tandem Solar Cells Approach 26.5% Efficiency by Employing Wide Bandgap Lead Perovskite Solar Cells with New Monomolecular Hole Transport Layer</title>
-      <link>https://happy-bi.github.io/publication/journal-article3/</link>
+      <link>/publication/j-acs-energy-letters-1/</link>
       <pubDate>Thu, 24 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://happy-bi.github.io/publication/journal-article3/</guid>
+      <guid>/publication/j-acs-energy-letters-1/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the toc_nanoscale to enable visitors to import publication metadata into their reference management software.
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

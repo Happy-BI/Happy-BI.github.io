@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>毕欢 | Huan BI</title>
+    <link>/author/%E6%AF%95%E6%AC%A2/</link>
+      <atom:link href="/author/%E6%AF%95%E6%AC%A2/index.xml" rel="self" type="application/rss+xml" />
+    <description>毕欢</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>@ 2024 Huan BI. Built with [Hugo](https://gohugo.io/) and the [Wowchemy](https://wowchemy.com/) theme. Any copying or downloading of any images on this page for any promotional purpose must first be approved by Bi Huan, otherwise it will be regarded as an infringement. 任何拷贝或下载任何本网页的图片用于任何宣传的行为，必须先得到毕欢的许可，否则将会被视为是侵权行为。</copyright><lastBuildDate>Tue, 12 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>毕欢</title>
+      <link>/author/%E6%AF%95%E6%AC%A2/</link>
+    </image>
+    
+    <item>
+      <title>一种用于制备有机-无机杂化钙钛矿太阳能电池的锂盐溶剂</title>
+      <link>/publication/patent3/</link>
+      <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/patent3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>一种应用于铅基钙钛矿太阳能电池的界面修饰分子</title>
+      <link>/publication/patent2/</link>
+      <pubDate>Fri, 24 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/patent2/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

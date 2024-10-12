@@ -1,378 +1,507 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>List of Publications | Huan BI(毕欢)</title>
-    <link>https://happy-bi.github.io/publication/</link>
-      <atom:link href="https://happy-bi.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
-    <description>List of Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 23 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <title>Publications | Huan BI</title>
+    <link>/publication/</link>
+      <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>@ 2024 Huan BI. Built with [Hugo](https://gohugo.io/) and the [Wowchemy](https://wowchemy.com/) theme. Any copying or downloading of any images on this page for any promotional purpose must first be approved by Bi Huan, otherwise it will be regarded as an infringement. 任何拷贝或下载任何本网页的图片用于任何宣传的行为，必须先得到毕欢的许可，否则将会被视为是侵权行为。</copyright><lastBuildDate>Mon, 23 Sep 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://happy-bi.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
-      <title>List of Publications</title>
-      <link>https://happy-bi.github.io/publication/</link>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Publications</title>
+      <link>/publication/</link>
     </image>
     
     <item>
+      <title>PEAI - Indeed an Effective Synergistic Modification Material to Improve All Perovskite Tandem Solar Cell Efficiency to Nearly 27%</title>
+      <link>/publication/c-eu-pvsec/</link>
+      <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/c-eu-pvsec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enhanced Electron Transport in Heterojunction Sn-Perovskite Solar Cells Assisted by [6,6]-Phenyl-C61-butyric Acid Methyl Ester as a Dopant</title>
+      <link>/publication/j-acs-energy-letters-2/</link>
+      <pubDate>Mon, 29 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/j-acs-energy-letters-2/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Double side passivation of phenylethyl ammonium iodide for all perovskite tandem solar cell with efficiency of 26.8%</title>
+      <link>/publication/j-ecoenergy-1/</link>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/j-ecoenergy-1/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Preparation of high-efficiency all-perovskite tandem devices</title>
+      <link>/publication/c-2024-mrs-spring-meeting/</link>
+      <pubDate>Tue, 07 May 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/c-2024-mrs-spring-meeting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PEAI Boosts the Efficiency of All-Perovskite Tandem Solar Cells to 26.81%</title>
+      <link>/publication/c-71rd-jsap/</link>
+      <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/c-71rd-jsap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>一种用于制备有机-无机杂化钙钛矿太阳能电池的锂盐溶剂</title>
+      <link>/publication/patent3/</link>
+      <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/patent3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simultaneous Passivation of Perovskite Interfaces at Multiple Active Sites Improves Device Performance: Combining Theory and Experiment</title>
+      <link>/publication/j-the-journal-of-physical-chemistry-letters-1/</link>
+      <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/j-the-journal-of-physical-chemistry-letters-1/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Covalent triazine reducing the defects by coordination roles and inhibiting I− migration by anion-π interaction for efficient perovskite solar cell</title>
+      <link>/publication/j-chemical-engineering-journal-4/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/j-chemical-engineering-journal-4/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PEAI-Indeed an Effective Synergistic Modification Material to Improve All Perovskite Tandem Solar Cell Efficiency to Nearly 27%</title>
+      <link>/publication/c-iperop24/</link>
+      <pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/c-iperop24/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Monolayer-modified PTAA facilitates the preparation of high-efficiency wide-bandgap perovskite solar cells and all-perovskite tandem cells with efficiencies exceeding 25%</title>
+      <link>/publication/c-pvsec-34/</link>
+      <pubDate>Thu, 16 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/c-pvsec-34/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>All perovskite tandem solar cells with efficiency over 26.5%</title>
+      <link>/publication/c-mrs-j/</link>
+      <pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/c-mrs-j/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ferrocene Derivatives for Improving the Efficiency and Stability of MA-Free Perovskite Solar Cells from the Perspective of Inhibiting Ion Migration and Releasing Film Stress</title>
+      <link>/publication/j-advanced-science-1/</link>
+      <pubDate>Sun, 22 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/j-advanced-science-1/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>All perovskite tandem solar cells with an efficiency of over 26.5%</title>
-      <link>https://happy-bi.github.io/publication/conference-paper1/</link>
+      <link>/publication/c-84rd-jsap/</link>
       <pubDate>Sat, 23 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://happy-bi.github.io/publication/conference-paper1/</guid>
+      <guid>/publication/c-84rd-jsap/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>All-Perovskite Tandem Solar Cells Approach 26.5% Efficiency by Employing Wide Bandgap Lead Perovskite Solar Cells with New Monomolecular Hole Transport Layer</title>
-      <link>https://happy-bi.github.io/publication/journal-article3/</link>
+      <link>/publication/j-acs-energy-letters-1/</link>
       <pubDate>Thu, 24 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://happy-bi.github.io/publication/journal-article3/</guid>
+      <guid>/publication/j-acs-energy-letters-1/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the toc_nanoscale to enable visitors to import publication metadata into their reference management software.
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Efficiency Enhancement of Wide Bandgap Lead Perovskite Solar Cells with PTAA Surface-Passivated with Monomolecular Layer from the Viewpoint of PTAA Band Bending</title>
-      <link>https://happy-bi.github.io/publication/journal-article4/</link>
+      <link>/publication/j-acs-applied-materials-interfaces-1/</link>
       <pubDate>Tue, 22 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://happy-bi.github.io/publication/journal-article4/</guid>
+      <guid>/publication/j-acs-applied-materials-interfaces-1/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the toc_nanoscale to enable visitors to import publication metadata into their reference management software.
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Multifunctional and multi-site interfacial buffer layer for efficient and stable perovskite solar cells</title>
-      <link>https://happy-bi.github.io/publication/journal-article1/</link>
+      <link>/publication/j-chemical-engineering-journal-1/</link>
       <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://happy-bi.github.io/publication/journal-article1/</guid>
+      <guid>/publication/j-chemical-engineering-journal-1/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the toc_nanoscale to enable visitors to import publication metadata into their reference management software.
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Perovskite perovskite tandem solar cells with efficiency higher than 26%</title>
-      <link>https://happy-bi.github.io/publication/conference-paper4/</link>
+      <link>/publication/c-em-nano2023/</link>
       <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://happy-bi.github.io/publication/conference-paper4/</guid>
+      <guid>/publication/c-em-nano2023/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Perovskite Solar Cells Consisting of PTAA Modified with Monomolecular Layer and Application to All-Pero</title>
-      <link>https://happy-bi.github.io/publication/journal-article2/</link>
+      <title>Perovskite Solar Cells Consisting of PTAA Modified with Monomolecular Layer and Application to All-Perovskite Tandem Solar Cells with Efficiency over 25%</title>
+      <link>/publication/j-advanced-functional-materials-1/</link>
       <pubDate>Wed, 26 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://happy-bi.github.io/publication/journal-article2/</guid>
+      <guid>/publication/j-advanced-functional-materials-1/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the toc_nanoscale to enable visitors to import publication metadata into their reference management software.
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>有机铵盐改性金属氧化物纳米颗粒在正置钙钛矿太阳能电池中的应用及器件的制备方法</title>
-      <link>https://happy-bi.github.io/publication/patent/</link>
+      <link>/publication/patent1/</link>
       <pubDate>Fri, 07 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://happy-bi.github.io/publication/patent/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <guid>/publication/patent1/</guid>
+      <description></description>
     </item>
     
     <item>
       <title>一种应用于铅基钙钛矿太阳能电池的界面修饰分子</title>
-      <link>https://happy-bi.github.io/publication/patent2/</link>
+      <link>/publication/patent2/</link>
       <pubDate>Fri, 24 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://happy-bi.github.io/publication/patent2/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <guid>/publication/patent2/</guid>
+      <description></description>
     </item>
     
     <item>
       <title>Multifunctional additive strategy to stabilize precursor solution and passivate film defects for MA-free perovskite solar cells with an efficiency of 22.75%</title>
-      <link>https://happy-bi.github.io/publication/conference-paper6/</link>
+      <link>/publication/c-70rd-jsap/</link>
       <pubDate>Wed, 15 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://happy-bi.github.io/publication/conference-paper6/</guid>
+      <guid>/publication/c-70rd-jsap/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Pb-free perovskite solar cells composed of Sn/Ge(1:1) alloyed perovskite layer prepared by spin-coating</title>
-      <link>https://happy-bi.github.io/publication/journal-article6/</link>
+      <link>/publication/j-applied-physics-express-1/</link>
       <pubDate>Fri, 10 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://happy-bi.github.io/publication/journal-article6/</guid>
+      <guid>/publication/j-applied-physics-express-1/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the toc_nanoscale to enable visitors to import publication metadata into their reference management software.
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>A multifunctional additive strategy to stabilize the precursor solution and passivate film defects for MA-free perovskite solar cells with an efficiency of 22.75%</title>
-      <link>https://happy-bi.github.io/publication/journal-article5/</link>
+      <link>/publication/j-materials-today-energy-1/</link>
       <pubDate>Fri, 24 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://happy-bi.github.io/publication/journal-article5/</guid>
+      <guid>/publication/j-materials-today-energy-1/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the toc_nanoscale to enable visitors to import publication metadata into their reference management software.
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Reduced interfacial recombination losses and lead leakage in lead-based perovskite solar cells using 2D/3D perovskite engineering</title>
-      <link>https://happy-bi.github.io/publication/journal-article14/</link>
+      <link>/publication/j-journal-of-power-sources-1/</link>
       <pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://happy-bi.github.io/publication/journal-article14/</guid>
+      <guid>/publication/j-journal-of-power-sources-1/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the toc_nanoscale to enable visitors to import publication metadata into their reference management software.
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Highly efficient MA free perovskite solar cells based on multifunctional interface modification</title>
-      <link>https://happy-bi.github.io/publication/conference-paper5/</link>
+      <link>/publication/c-iperop23/</link>
       <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://happy-bi.github.io/publication/conference-paper5/</guid>
+      <guid>/publication/c-iperop23/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Functionalized polymer modified buried interface for enhanced efficiency and stability of perovskite solar cells</title>
-      <link>https://happy-bi.github.io/publication/journal-article/</link>
+      <link>/publication/j-nanoscale-1/</link>
       <pubDate>Thu, 22 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://happy-bi.github.io/publication/journal-article/</guid>
+      <guid>/publication/j-nanoscale-1/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the toc_nanoscale to enable visitors to import publication metadata into their reference management software.
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Modifying the buried interface with azodicarbonamide for high-efficiency MA-free perovskite solar cells</title>
-      <link>https://happy-bi.github.io/publication/journal-article7/</link>
+      <link>/publication/j-materials-today-energy-2/</link>
       <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://happy-bi.github.io/publication/journal-article7/</guid>
+      <guid>/publication/j-materials-today-energy-2/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the toc_nanoscale to enable visitors to import publication metadata into their reference management software.
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Top-contacts-interface Engineering for High-performance Perovskite Solar Cell with Reducing Lead Leakage</title>
-      <link>https://happy-bi.github.io/publication/conference-paper7/</link>
+      <link>/publication/c-pvsec-33/</link>
       <pubDate>Wed, 16 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://happy-bi.github.io/publication/conference-paper7/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <guid>/publication/c-pvsec-33/</guid>
+      <description></description>
     </item>
     
     <item>
       <title>In situ lead oxysalt passivation layer for stable and efficient perovskite solar cells</title>
-      <link>https://happy-bi.github.io/publication/journal-article8/</link>
+      <link>/publication/j-chemical-communications-1/</link>
       <pubDate>Thu, 20 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://happy-bi.github.io/publication/journal-article8/</guid>
+      <guid>/publication/j-chemical-communications-1/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the toc_nanoscale to enable visitors to import publication metadata into their reference management software.
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Lead-based perovskite solar cells that are highly efficient and environmentally friendly with lead recycled</title>
-      <link>https://happy-bi.github.io/publication/conference-paper2/</link>
+      <link>/publication/c-83rd-jsap/</link>
       <pubDate>Fri, 23 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://happy-bi.github.io/publication/conference-paper2/</guid>
+      <guid>/publication/c-83rd-jsap/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Multistrategy Preparation of Efficient and Stable Environment-Friendly Lead-Based Perovskite Solar Cells</title>
-      <link>https://happy-bi.github.io/publication/journal-article9/</link>
+      <link>/publication/j-acs-applied-materials-interfaces-2/</link>
       <pubDate>Sat, 30 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://happy-bi.github.io/publication/journal-article9/</guid>
+      <guid>/publication/j-acs-applied-materials-interfaces-2/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the toc_nanoscale to enable visitors to import publication metadata into their reference management software.
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Interface Modification Strategy by Synergy of Functional Groups for MA-Free Perovskite Solar Cells with Efficiency Exceeding 22%</title>
-      <link>https://happy-bi.github.io/publication/conference-paper8/</link>
+      <link>/publication/c-%E7%AC%AC19%E5%9B%9E%E6%AC%A1%E4%B8%96%E4%BB%A3%E3%81%AE%E5%A4%AA%E9%99%BD%E5%85%89%E7%99%BA%E9%9B%BB%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%82%B7%E3%83%B3%E3%83%9B%E3%82%B7%E3%82%A6%E3%83%A0/</link>
       <pubDate>Tue, 28 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://happy-bi.github.io/publication/conference-paper8/</guid>
+      <guid>/publication/c-%E7%AC%AC19%E5%9B%9E%E6%AC%A1%E4%B8%96%E4%BB%A3%E3%81%AE%E5%A4%AA%E9%99%BD%E5%85%89%E7%99%BA%E9%9B%BB%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%82%B7%E3%83%B3%E3%83%9B%E3%82%B7%E3%82%A6%E3%83%A0/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Multistrategy Preparation of Efficient and Stable Environment-Friendly Lead-Based Perovskite Solar Cells</title>
-      <link>https://happy-bi.github.io/publication/journal-article10/</link>
+      <link>/publication/j-solar-rrl-1/</link>
       <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://happy-bi.github.io/publication/journal-article10/</guid>
+      <guid>/publication/j-solar-rrl-1/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the toc_nanoscale to enable visitors to import publication metadata into their reference management software.
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Highly efficient and low hysteresis MA-free perovskite solar cells based on multifunctional oteracil potassium interface modification</title>
-      <link>https://happy-bi.github.io/publication/conference-paper3/</link>
+      <link>/publication/c-the-9th-conference-on-science-and-technology-of-emerging-solar-energy-materials/</link>
       <pubDate>Sat, 07 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://happy-bi.github.io/publication/conference-paper3/</guid>
+      <guid>/publication/c-the-9th-conference-on-science-and-technology-of-emerging-solar-energy-materials/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Highly efficient and low hysteresis methylammonium-free perovskite solar cells based on multifunctional oteracil potassium interface modification</title>
-      <link>https://happy-bi.github.io/publication/journal-article11/</link>
+      <link>/publication/j-chemical-engineering-journal-2/</link>
       <pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://happy-bi.github.io/publication/journal-article11/</guid>
+      <guid>/publication/j-chemical-engineering-journal-2/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the toc_nanoscale to enable visitors to import publication metadata into their reference management software.
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Interfacial defect passivation and stress release by multifunctional KPF6 modification for planar perovskite solar cells with enhanced efficiency and stability</title>
-      <link>https://happy-bi.github.io/publication/journal-article13/</link>
+      <link>/publication/j-chemical-engineering-journal-3/</link>
       <pubDate>Wed, 17 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://happy-bi.github.io/publication/journal-article13/</guid>
+      <guid>/publication/j-chemical-engineering-journal-3/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the toc_nanoscale to enable visitors to import publication metadata into their reference management software.
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Multifunctional organic ammonium salt-modified SnO2 nanoparticles toward efficient and stable planar perovskite solar cells</title>
-      <link>https://happy-bi.github.io/publication/journal-article12/</link>
+      <link>/publication/j-journal-of-materials-chemistry-a-1/</link>
       <pubDate>Sun, 28 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>https://happy-bi.github.io/publication/journal-article12/</guid>
+      <guid>/publication/j-journal-of-materials-chemistry-a-1/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the toc_nanoscale to enable visitors to import publication metadata into their reference management software.
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Construction of Ultra‐stable Perovskite‐Polymer Fiber Membranes by Electrospinning Technology and its Application on Light‐Emitting Diodes</title>
-      <link>https://happy-bi.github.io/publication/journal-article15/</link>
+      <title>Construction of Ultra-stable Perovskite-Polymer Fiber Membranes by Electrospinning Technology and its Application on Light‐Emitting Diodes</title>
+      <link>/publication/j-polymer-international-1/</link>
       <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://happy-bi.github.io/publication/journal-article15/</guid>
+      <guid>/publication/j-polymer-international-1/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the toc_nanoscale to enable visitors to import publication metadata into their reference management software.
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

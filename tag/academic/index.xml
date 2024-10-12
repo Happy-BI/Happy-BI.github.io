@@ -1,94 +1,1880 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Academic | Huan BI(毕欢)</title>
-    <link>https://happy-bi.github.io/tag/academic/</link>
-      <atom:link href="https://happy-bi.github.io/tag/academic/index.xml" rel="self" type="application/rss+xml" />
+    <title>Academic | Huan BI</title>
+    <link>/tag/academic/</link>
+      <atom:link href="/tag/academic/index.xml" rel="self" type="application/rss+xml" />
     <description>Academic</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>@ 2024 Huan BI. Built with [Hugo](https://gohugo.io/) and the [Wowchemy](https://wowchemy.com/) theme. Any copying or downloading of any images on this page for any promotional purpose must first be approved by Bi Huan, otherwise it will be regarded as an infringement. 任何拷贝或下载任何本网页的图片用于任何宣传的行为，必须先得到毕欢的许可，否则将会被视为是侵权行为。</copyright><lastBuildDate>Fri, 12 Jul 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://happy-bi.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Academic</title>
-      <link>https://happy-bi.github.io/tag/academic/</link>
+      <link>/tag/academic/</link>
     </image>
     
     <item>
-      <title>Welcome to Wowchemy, the website builder for Hugo</title>
-      <link>https://happy-bi.github.io/post/getting-started/</link>
-      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://happy-bi.github.io/post/getting-started/</guid>
-      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;libr&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;hello&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site&lt;/li&gt;
-&lt;li&gt;The template can be modified and customised to suit your needs. It&amp;rsquo;s a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a &lt;strong&gt;no-code solution (write in Markdown and customize with YAML parameters)&lt;/strong&gt; and having &lt;strong&gt;flexibility to later add even deeper personalization with HTML and CSS&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;a href=&#34;https://wowchemy.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/main/starters/academic/preview.png&#34; alt=&#34;The template is mobile first with a responsive design to ensure that your site looks stunning on every device.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;get-started&#34;&gt;Get Started&lt;/h2&gt;
+      <title>Origin中误差图的画法-从数据到图片的处理</title>
+      <link>/post/origin/</link>
+      <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>/post/origin/</guid>
+      <description>&lt;p&gt;首先需要明确的是，我们在数据中所使用的误差线数值应该如何获得。&lt;/p&gt;
+&lt;p&gt;目前在数据处理中，国际上尚未统一采用哪一种误差，但是通过谷歌学术初步检索发现，2013年的SCI论文中明确给出误差棒的类型的，其中用平均数±标准误差（S.E.），仅有90条，而用平均数±标准方差（S.D.）约有331条，而对于爱斯维尔系统里的文章，我从我之前看到的论文中统计的结果是有标注误差棒且明确计算方法的，几乎都是用以上两种形式，而每4篇中就有三篇采用的是平均数±标准方差，因此我们在数据处理中的误差线都用平均数±标准方差来获得。&lt;/p&gt;
+&lt;h2 id=&#34;origin如何取平均值和标准差&#34;&gt;Origin如何取平均值和标准差&lt;/h2&gt;
+&lt;p&gt;1、将数据导入。（说明，此处为在条件1下，对同一样品测试4次后得到的数据）&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./1.jpg&#34; alt=&#34;jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;2、选取需要进行求平均值以及标准差的重复实验数据，选中之后右击Statistics on Row，选择Open Dialog&amp;hellip;，弹出如图的对话框，直接点击OK，就可以在表格中直接得到平均值和标准差数据。（切记，选择时不能选择X轴数据）&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./2.jpg&#34; alt=&#34;jpg&#34;&gt;
+&lt;img src=&#34;./3.jpg&#34; alt=&#34;jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;3.误差棒画法参数设置：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./4.jpg&#34; alt=&#34;jpg&#34;&gt;
+&lt;img src=&#34;./5.jpg&#34; alt=&#34;jpg&#34;&gt;
+&lt;img src=&#34;./6.jpg&#34; alt=&#34;jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;即可得到下图：
+&lt;img src=&#34;./7.jpg&#34; alt=&#34;jpg&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;数据&#34;&gt;数据&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;序号&lt;/th&gt;
+&lt;th&gt;数据1&lt;/th&gt;
+&lt;th&gt;数据2&lt;/th&gt;
+&lt;th&gt;数据3&lt;/th&gt;
+&lt;th&gt;数据4&lt;/th&gt;
+&lt;th&gt;数据5&lt;/th&gt;
+&lt;th&gt;数据6&lt;/th&gt;
+&lt;th&gt;数据7&lt;/th&gt;
+&lt;th&gt;数据8&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;2.1&lt;/td&gt;
+&lt;td&gt;2.2&lt;/td&gt;
+&lt;td&gt;1.9&lt;/td&gt;
+&lt;td&gt;1.84&lt;/td&gt;
+&lt;td&gt;0.4827&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;4.1&lt;/td&gt;
+&lt;td&gt;4.05&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;4.2&lt;/td&gt;
+&lt;td&gt;3.8&lt;/td&gt;
+&lt;td&gt;3.83&lt;/td&gt;
+&lt;td&gt;0.48683&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;7.2&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;7.3&lt;/td&gt;
+&lt;td&gt;6.99&lt;/td&gt;
+&lt;td&gt;6.898&lt;/td&gt;
+&lt;td&gt;0.51915&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;13.5&lt;/td&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;13.65&lt;/td&gt;
+&lt;td&gt;13.57&lt;/td&gt;
+&lt;td&gt;13.8&lt;/td&gt;
+&lt;td&gt;13.304&lt;/td&gt;
+&lt;td&gt;0.73745&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;17.3&lt;/td&gt;
+&lt;td&gt;17.2&lt;/td&gt;
+&lt;td&gt;14&lt;/td&gt;
+&lt;td&gt;16.89&lt;/td&gt;
+&lt;td&gt;17&lt;/td&gt;
+&lt;td&gt;16.478&lt;/td&gt;
+&lt;td&gt;1.3946&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;20.1&lt;/td&gt;
+&lt;td&gt;20.15&lt;/td&gt;
+&lt;td&gt;19.89&lt;/td&gt;
+&lt;td&gt;18&lt;/td&gt;
+&lt;td&gt;20&lt;/td&gt;
+&lt;td&gt;19.628&lt;/td&gt;
+&lt;td&gt;0.91552&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;24.9&lt;/td&gt;
+&lt;td&gt;25.3&lt;/td&gt;
+&lt;td&gt;28&lt;/td&gt;
+&lt;td&gt;25&lt;/td&gt;
+&lt;td&gt;25.1&lt;/td&gt;
+&lt;td&gt;25.66&lt;/td&gt;
+&lt;td&gt;1.31643&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;30.1&lt;/td&gt;
+&lt;td&gt;31&lt;/td&gt;
+&lt;td&gt;30.9&lt;/td&gt;
+&lt;td&gt;30.12&lt;/td&gt;
+&lt;td&gt;30.14&lt;/td&gt;
+&lt;td&gt;30.452&lt;/td&gt;
+&lt;td&gt;0.4562&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;35&lt;/td&gt;
+&lt;td&gt;34.9&lt;/td&gt;
+&lt;td&gt;38&lt;/td&gt;
+&lt;td&gt;35.3&lt;/td&gt;
+&lt;td&gt;35.2&lt;/td&gt;
+&lt;td&gt;35.68&lt;/td&gt;
+&lt;td&gt;1.30652&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;td&gt;40.2&lt;/td&gt;
+&lt;td&gt;35&lt;/td&gt;
+&lt;td&gt;39.8&lt;/td&gt;
+&lt;td&gt;40.14&lt;/td&gt;
+&lt;td&gt;40&lt;/td&gt;
+&lt;td&gt;39.028&lt;/td&gt;
+&lt;td&gt;2.25697&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h3&gt;
+&lt;h3 id=&#34;for-your-reference-any-reprint-must-indicate-the-source-which-is-this-website--&#34;&gt;For your reference, any reprint must indicate the source, which is this website. ©️ 🔏&lt;/h3&gt;
+&lt;h3 id=&#34;供您参考任何转载都需表明出处即本网址--&#34;&gt;供您参考，任何转载都需表明出处，即本网址。 ©️ 🔏&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>/post/python%E7%BB%98%E5%9B%BE/</link>
+      <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>/post/python%E7%BB%98%E5%9B%BE/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;#python%e7%bb%98%e5%9b%be&#34;&gt;Python绘图&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#%e4%bd%bf%e7%94%a8python%e7%bb%98%e5%9b%be%e7%9a%84%e5%b0%ba%e5%af%b8%e8%a7%84%e5%ae%9a%e5%92%8c%e4%b8%8d%e5%90%8c%e7%b1%bb%e5%9e%8b%e7%9a%84%e4%bb%a3%e7%a0%81%e8%a7%a3%e9%87%8a&#34;&gt;使用Python绘图的尺寸规定和不同类型的代码解释&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;👉 &lt;a href=&#34;https://wowchemy.com/templates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Create a new site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;📚 &lt;a href=&#34;https://wowchemy.com/docs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Personalize your site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;💬 &lt;a href=&#34;https://discord.gg/z8wNYzb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chat with the &lt;strong&gt;Wowchemy community&lt;/strong&gt;&lt;/a&gt; or &lt;a href=&#34;https://discourse.gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Hugo community&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;🐦 Twitter: &lt;a href=&#34;https://twitter.com/wowchemy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@wowchemy&lt;/a&gt; &lt;a href=&#34;https://twitter.com/GeorgeCushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@GeorgeCushen&lt;/a&gt; &lt;a href=&#34;https://twitter.com/search?q=%23MadeWithWowchemy&amp;amp;src=typed_query&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#MadeWithWowchemy&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;💡 &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-themes/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Request a &lt;strong&gt;feature&lt;/strong&gt; or report a &lt;strong&gt;bug&lt;/strong&gt; for &lt;em&gt;Wowchemy&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;⬆️ &lt;strong&gt;Updating Wowchemy?&lt;/strong&gt; View the &lt;a href=&#34;https://wowchemy.com/docs/hugo-tutorials/update/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Update Tutorial&lt;/a&gt; and &lt;a href=&#34;https://wowchemy.com/updates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;crowd-funded-open-source-software&#34;&gt;Crowd-funded open-source software&lt;/h2&gt;
-&lt;p&gt;To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.&lt;/p&gt;
-&lt;h3 id=&#34;-click-here-to-become-a-sponsor-and-help-support-wowchemys-future-httpswowchemycomsponsor&#34;&gt;&lt;a href=&#34;https://wowchemy.com/sponsor/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;❤️ Click here to become a sponsor and help support Wowchemy&amp;rsquo;s future ❤️&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;As a token of appreciation for sponsoring, you can &lt;strong&gt;unlock &lt;a href=&#34;https://wowchemy.com/sponsor/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;these&lt;/a&gt; awesome rewards and extra features 🦄✨&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h2&gt;
+&lt;li&gt;
+&lt;a href=&#34;#%e5%8d%95%e5%9b%be%e7%9a%84%e7%bb%98%e5%88%b6&#34;&gt;单图的绘制&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/wowchemy/hugo-academic-cli&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Academic CLI&lt;/a&gt;:&lt;/strong&gt; Automatically import publications from BibTeX&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#%e6%8a%98%e7%ba%bf%e5%9b%be%e7%9a%84%e7%bb%98%e5%88%b6&#34;&gt;折线图的绘制&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#%e7%82%b9%e7%ba%bf%e5%9b%be%e7%9a%84%e7%bb%98%e5%88%b6&#34;&gt;点线图的绘制&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#%e6%9f%b1%e7%8a%b6%e5%9b%be%e7%9a%84%e7%bb%98%e5%88%b6&#34;&gt;柱状图的绘制&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#%e7%ae%b1%e5%9b%be%e7%9a%84%e5%88%b6%e5%a4%87&#34;&gt;箱图的制备&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#lnlog%e5%9b%be%e7%9a%84%e7%bb%98%e5%88%b6&#34;&gt;ln，log图的绘制&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or &lt;a href=&#34;https://wowchemy.com/user-stories/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;view the &lt;strong&gt;showcase&lt;/strong&gt;&lt;/a&gt; of personal, project, and business sites.&lt;/p&gt;
-&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#%e5%8f%8c%e5%9b%be%e7%9a%84%e5%88%b6%e4%bd%9c&#34;&gt;双图的制作&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Page builder&lt;/strong&gt; - Create &lt;em&gt;anything&lt;/em&gt; with &lt;a href=&#34;https://wowchemy.com/docs/page-builder/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;widgets&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;elements&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Edit any type of content&lt;/strong&gt; - Blog posts, publications, talks, slides, projects, and more!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Create content&lt;/strong&gt; in &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Markdown&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&#34;https://wowchemy.com/docs/import/jupyter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Jupyter&lt;/strong&gt;&lt;/a&gt;, or &lt;a href=&#34;https://wowchemy.com/docs/install-locally/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Plugin System&lt;/strong&gt; - Fully customizable &lt;a href=&#34;https://wowchemy.com/docs/customization/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;color&lt;/strong&gt; and &lt;strong&gt;font themes&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Display Code and Math&lt;/strong&gt; - Code highlighting and &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LaTeX math&lt;/a&gt; supported&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt; - &lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Analytics&lt;/a&gt;, &lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Disqus commenting&lt;/a&gt;, Maps, Contact Forms, and more!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Beautiful Site&lt;/strong&gt; - Simple and refreshing one page design&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Industry-Leading SEO&lt;/strong&gt; - Help get your website found on search engines and social media&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Media Galleries&lt;/strong&gt; - Display your images and videos with captions in a customizable gallery&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mobile Friendly&lt;/strong&gt; - Look amazing on every screen with a mobile friendly version of your site&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Multi-language&lt;/strong&gt; - 34+ language packs including English, 中文, and Português&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Multi-user&lt;/strong&gt; - Each author gets their own profile page&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Privacy Pack&lt;/strong&gt; - Assists with GDPR&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Stand Out&lt;/strong&gt; - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;One-Click Deployment&lt;/strong&gt; - No servers. No databases. Only files.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#%e6%96%b9%e6%b3%951%e4%bd%bf%e7%94%a8%e5%be%aa%e7%8e%af%e5%91%bd%e4%bb%a4%e5%ae%9a%e4%b9%89%e5%a4%9a%e7%bb%84%e6%95%b0%e6%8d%ae%e7%9a%84%e6%96%87%e4%bb%b6&#34;&gt;方法1：使用循环命令定义多组数据的文件&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#%e6%96%b9%e6%b3%952%e9%80%90%e4%b8%aa%e5%ae%9a%e4%b9%89%e6%95%b0%e6%8d%ae&#34;&gt;方法2：逐个定义数据&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
-&lt;p&gt;Wowchemy and its templates come with &lt;strong&gt;automatic day (light) and night (dark) mode&lt;/strong&gt; built-in. Alternatively, visitors can choose their preferred mode - click the moon icon in the top right of the &lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Demo&lt;/a&gt; to see it in action! Day/night mode can also be disabled by the site admin in &lt;code&gt;params.toml&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/customization&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Choose a stunning &lt;strong&gt;theme&lt;/strong&gt; and &lt;strong&gt;font&lt;/strong&gt;&lt;/a&gt; for your site. Themes are fully customizable.&lt;/p&gt;
-&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
-&lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-themes/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#%e4%b8%89%e5%9b%be%e7%9a%84%e7%bb%98%e5%88%b6&#34;&gt;三图的绘制&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#%e5%9b%9b%e5%9b%be%e7%9a%84%e7%bb%98%e5%88%b6&#34;&gt;四图的绘制&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#%e5%85%ad%e5%9b%be%e7%9a%84%e7%bb%98%e5%88%b6&#34;&gt;六图的绘制&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#%e6%80%bb%e7%bb%93&#34;&gt;总结&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#pscs%e8%ae%ba%e6%96%87%e4%b8%ad%e5%b8%b8%e7%94%a8%e7%9a%84%e5%9b%be%e7%89%87%e7%9a%84%e4%bb%a3%e7%a0%81%e5%92%8c%e6%98%be%e7%a4%ba&#34;&gt;PSCs论文中常用的图片的代码和显示&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;#pscs%e7%9a%84%e5%90%84%e4%b8%aa%e5%8f%82%e6%95%b0%e7%bb%9f%e8%ae%a1%e5%9b%be&#34;&gt;PSCs的各个参数统计图&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#trpl%e7%9a%84%e6%95%b0%e6%8d%ae%e6%8b%9f%e5%90%88&#34;&gt;TRPL的数据拟合&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#%e6%9a%97%e6%80%81%e5%85%89%e7%94%b5%e6%b5%81%e6%98%be%e7%a4%ba&#34;&gt;暗态光电流显示&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#iv%e6%9b%b2%e7%ba%bf%e7%9a%84%e7%bb%98%e5%88%b6&#34;&gt;IV曲线的绘制&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#ipce%e7%9a%84%e7%bb%98%e5%88%b6&#34;&gt;IPCE的绘制&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;#%e6%b2%a1%e6%9c%89%e7%a7%af%e5%88%86%e7%94%b5%e6%b5%81&#34;&gt;没有积分电流&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#%e6%9c%89%e7%a7%af%e5%88%86%e7%94%b5%e6%b5%81%e7%9a%84%e5%8f%8cy%e8%bd%b4%e7%bb%98%e5%88%b6&#34;&gt;有积分电流的双Y轴绘制&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#%e9%95%bf%e6%9c%9f%e7%a8%b3%e5%ae%9a%e6%80%a7%e7%bb%98%e5%88%b6&#34;&gt;长期稳定性绘制&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#uv%e7%ae%97%e7%9a%84%e5%b8%a6%e9%9a%99%e6%95%b0%e6%8d%ae%e4%bb%a5%e5%8f%8a%e5%88%87%e7%ba%bf%e7%9a%84%e7%bb%98%e5%88%b6&#34;&gt;UV算的带隙数据以及切线的绘制&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#xrd-%e6%95%b0%e6%8d%ae&#34;&gt;XRD 数据&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#uv-%e6%95%b0%e6%8d%ae&#34;&gt;UV 数据&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#tpc-%e6%95%b0%e6%8d%ae&#34;&gt;TPC 数据&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#tpv-%e6%95%b0%e6%8d%ae&#34;&gt;TPV 数据&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#trpl-mapping%e6%95%b0%e6%8d%ae&#34;&gt;TRPL mapping数据&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#sclc%e6%95%b0%e6%8d%ae&#34;&gt;SCLC数据&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#ms-%e5%9b%be%e7%bb%98%e5%88%b6&#34;&gt;MS 图绘制&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;#pl-%e6%95%b0%e6%8d%ae&#34;&gt;PL 数据&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;python绘图&#34;&gt;Python绘图&lt;/h1&gt;
+&lt;p&gt;本文将对python的绘图进行规定，包括图片尺寸，常用命令以及部分数据拟合（包括PL寿命，切线等等命令）。&lt;/p&gt;
+&lt;table&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;img src=&#34;Figure_1.svg&#34; alt=&#34;Image A&#34;&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;img src=&#34;Figure_2.svg&#34; alt=&#34;Image B&#34;&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;img src=&#34;Figure_3.svg&#34; alt=&#34;Image C&#34;&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;img src=&#34;Figure_4.svg&#34; alt=&#34;Image D&#34;&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;img src=&#34;Figure_5.svg&#34; alt=&#34;Image E&#34;&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;img src=&#34;Figure_6.svg&#34; alt=&#34;Image F&#34;&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;img src=&#34;Figure_7.svg&#34; alt=&#34;Image E&#34;&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;img src=&#34;Figure_8.svg&#34; alt=&#34;Image F&#34;&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;img src=&#34;Figure_9.svg&#34; alt=&#34;Image E&#34;&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;img src=&#34;Figure_10.svg&#34; alt=&#34;Image F&#34;&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;img src=&#34;Figure_11.svg&#34; alt=&#34;Image E&#34;&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;img src=&#34;Figure_12.svg&#34; alt=&#34;Image F&#34;&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;img src=&#34;Figure_13.svg&#34; alt=&#34;Image E&#34;&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;img src=&#34;Figure_14.svg&#34; alt=&#34;Image F&#34;&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;img src=&#34;Figure_15.svg&#34; alt=&#34;Image E&#34;&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;img src=&#34;Figure_16.svg&#34; alt=&#34;Image F&#34;&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;img src=&#34;Figure_17.svg&#34; alt=&#34;Image E&#34;&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;img src=&#34;Figure_18.svg&#34; alt=&#34;Image F&#34;&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;img src=&#34;Figure_19.svg&#34; alt=&#34;Image E&#34;&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;img src=&#34;Figure_20.svg&#34; alt=&#34;Image F&#34;&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;img src=&#34;Figure_21.svg&#34; alt=&#34;Image E&#34;&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;img src=&#34;Figure_22.svg&#34; alt=&#34;Image F&#34;&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;img src=&#34;Figure_23.svg&#34; alt=&#34;Image E&#34;&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;img src=&#34;Figure_24.svg&#34; alt=&#34;Image F&#34;&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;h1 id=&#34;使用python绘图的尺寸规定和不同类型的代码解释&#34;&gt;使用Python绘图的尺寸规定和不同类型的代码解释&lt;/h1&gt;
+&lt;h2 id=&#34;单图的绘制&#34;&gt;单图的绘制&lt;/h2&gt;
+&lt;h3 id=&#34;折线图的绘制&#34;&gt;折线图的绘制&lt;/h3&gt;
+&lt;p&gt;本节将展示单个图片展示的代码。以PL数据为例&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import numpy as np
+import matplotlib.pyplot as plt
+
+# 读取文件数据
+data = np.loadtxt(&amp;quot;PLcharge.txt&amp;quot;)
+
+# 分割数据
+x1_data = data[:, 0]  # 第一列作为X轴数值
+x2_data = data[:, 2]  # 第三列作为X轴数值
+x3_data = data[:, 4]  # 第五列作为X轴数值
+x4_data = data[:, 6]  # 第七列作为X轴数值
+
+y1_data = data[:, 1]  # 第二列作为Y轴数值
+y2_data = data[:, 3]  # 第四列作为Y轴数值
+y3_data = data[:, 5]  # 第六列作为Y轴数值
+y4_data = data[:, 7]  # 第八列作为Y轴数值
+
+fig, ax = plt.subplots(figsize=(4,3.5),dpi=300,facecolor=&amp;quot;w&amp;quot;,constrained_layout=True) #constrained_layout=True:让图片紧凑
+#4cm为10.16cm
+
+# 设置Y轴使用科学计数法
+ax.ticklabel_format(style=&#39;sci&#39;, axis=&#39;y&#39;, scilimits=(0, 0))
+
+# 设置X轴显示范围
+ax.set_xlim(600, 900)  # 修改此处为ax.set_xlim
+
+# 绘制折线图
+ax.plot(x1_data, y1_data, label=&#39;glass/PVK&#39;, color=&#39;m&#39;, alpha=0.5)
+ax.plot(x2_data, y2_data, label=&#39;ITO/NiOx/PVK&#39;, color=&#39;c&#39;, alpha=0.5)
+ax.plot(x3_data, y3_data, label=&#39;ITO/NiOx/PEAI/PVK/C60&#39;, color=&#39;r&#39;, alpha=0.5)
+ax.plot(x4_data, y4_data, label=&#39;ITO/NiOx/PEAI/PVK/PEAI/C60&#39;, color=&#39;g&#39;, alpha=0.5)
+
+# 设置坐标的名称和字体
+plt.xlabel(&#39;Wavelength (nm)&#39;) #, fontsize=12
+plt.ylabel(&#39;Intensity (a.u.)&#39;)
+
+# 设置坐标轴的大小
+#ax.tick_params(axis=&#39;x&#39;, labelsize=12)
+#ax.tick_params(axis=&#39;y&#39;, labelsize=12)
+
+# 绘制图例不带窗户阴影，并且设置字体
+ax.legend(frameon=False, fontsize=8)
+
+# 绘制图
+#plt.tight_layout()  让图片紧凑的另一个方式
+
+#plt.savefig(&amp;quot;Figure_1.png&amp;quot;, transparent=True) 保存成透明图片，用于海报制作可以考虑
+
+plt.show()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Result:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Figure_1.svg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;点线图的绘制&#34;&gt;点线图的绘制&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.gridspec import GridSpec #把子图网格化
+
+fig=plt.figure(figsize=(4,3.5),dpi=300,facecolor=&amp;quot;w&amp;quot;,constrained_layout=True) 
+gs=GridSpec(1,1)
+msc=plt.subplot(gs[0,0]) 
+
+MSC=np.loadtxt(&#39;./MSC.txt&#39;)
+MST=np.loadtxt(&#39;./MST.txt&#39;)
+xms1 = MSC[:,0]
+yms1 = MSC[:,1]
+xms2 = MST[:,0]
+yms2 = MST[:,1]
+
+msc.plot(xms1,yms1, &#39;o-&#39;,ms=4,label=r&#39;control&#39;,color=&#39;C9&#39;,linewidth=1)
+msc.plot(xms2,yms2, &#39;o-&#39;,ms=4,label=r&#39;target&#39;, color=&#39;C6&#39;,linewidth=1)
+
+msc.set_xlabel(r&#39;Voltage (V)&#39;)
+msc.set_ylabel(r&#39;Mott-Schottky ($1/F^{2}$)&#39;)
+msc.set_xlim([0,1.2])
+msc.set_ylim([0,0.7e16])
+
+msc.text(0.408,3e+15, r&amp;quot;0.96 V&amp;quot;, color=&#39;C9&#39;) 
+msc.text(0.825,5.48e+15, r&amp;quot;1.06 V&amp;quot;, color=&#39;C6&#39;) 
+
+msc.legend(frameon=False)
+fig.tight_layout()
+plt.show()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Result:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Figure_6.svg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;柱状图的绘制&#34;&gt;柱状图的绘制&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.gridspec import GridSpec #把子图网格化
+
+fig=plt.figure(figsize=(4,3.5),dpi=300,facecolor=&amp;quot;w&amp;quot;,constrained_layout=True) 
+gs=GridSpec(1,1)
+
+sub1=plt.subplot(gs[0,0]) #组图的个数和位置
+
+species = (&amp;quot;Control&amp;quot;, &amp;quot;Bottom&amp;quot;,&amp;quot;Both&amp;quot;)  #定义柱状图的数据，这里提供直接输入，至于从文件读取，之后会摸索
+penguin_means = {
+    &#39;jsc&#39;: (0.07684,0.10273,0.11164),   
+    &#39;vocrad&#39;: (0.00622,0.00804,0.00605),
+    &#39;voc&#39;: (0.12358,0.13022,0.13528),
+    &#39;ff0&#39;: (0.06774,0.04302,0.02952),
+    &#39;FF&#39;: (0.16714,0.11304,0.08216),
+}    #这里只是简单的给出一个区分而已
+
+x = np.arange(len(species))  # the label locations
+width = 0.15  # 柱子与柱子之间的距离
+multiplier = 0
+
+sub1.plot()
+
+for attribute, measurement in penguin_means.items():
+    offset = width * multiplier
+    if attribute == &#39;jsc&#39;:
+        color = &#39;c&#39;
+    elif attribute == &#39;vocrad&#39;:
+        color = &#39;r&#39;
+    elif attribute == &#39;voc&#39;:
+        color = &#39;g&#39;
+    elif attribute == &#39;ff0&#39;:
+        color = &#39;y&#39;
+    elif attribute == &#39;FF&#39;:
+        color = &#39;b&#39;
+#offset = width * multiplier：这一行计算一个名为 offset 的变量，它用于确定每个柱的
+# 水平位置偏移量。width 是之前定义的柱的宽度，而 multiplier 是一个可能用于自定义某些柱
+# 高度的值。offset 用于将每个柱的水平位置调整。
+        
+    rects = sub1.bar(x + offset, measurement, width, label=attribute, color=color,alpha=0.5,edgecolor=&#39;k&#39;,hatch=&#39;.&#39;)
+    sub1.bar_label(rects, fontsize=5,padding=2) #padding 数值和柱子之间的距离 fontsize 在柱子上显示数值并规定大小
+    multiplier += 1
+
+# 添加图例，y轴等相关信息
+sub1.set_ylabel(&#39;Percentage of DB efficiency&#39;)
+sub1.set_xticks(x + width, species)
+sub1.legend([r&#39;$\frac{J\mathrm{_{SC}} }{J\mathrm{_{SC}^{DB}}  } $&#39;,r&#39;$\frac{V\mathrm{_{OC}^{rad}} }{V\mathrm{_{OC}^{DB}}  } $&#39;,
+             r&#39;$\frac{V\mathrm{_{OC}} }{V\mathrm{_{OC}^{rad}}  } $&#39;,r&#39;$\frac{FF\mathrm{_{0}} V\mathrm{_{OC}} }{FF\mathrm{^{DB}}  } $&#39;,r&#39;$\frac{FF}{FF\mathrm{_{0}} V\mathrm{_{OC}} } $&#39;],loc=&#39;upper right&#39;, ncols=2.5,frameon=False) #图注无背景,添加图注文字，图注的位置等等
+#这里定义了一种有下标的书写方式以及分数的书写方式
+sub1.set_ylim(0,0.35)
+
+fig.tight_layout()
+plt.show()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Result:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Figure_7.svg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;箱图的制备&#34;&gt;箱图的制备&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.gridspec import GridSpec
+
+fig = plt.figure(figsize=(4,3.5),dpi=300,facecolor=&amp;quot;w&amp;quot;,constrained_layout=True)
+gs = GridSpec(1,1)
+
+JSC = plt.subplot(gs[0, 0])
+
+data = np.loadtxt(&#39;./TONGJI.txt&#39;)
+labels = [&#39;0&#39;, &#39;0.25&#39;, &#39;0.5&#39;, &#39;1&#39;]
+data1 = [data[:, 0], data[:, 4], data[:, 8], data[:, 12]]
+
+bplot1 = JSC.boxplot(data1, vert=True, patch_artist=True, labels=labels)
+
+JSC.set_xlabel(r&#39;Concentration of MMTA (mg/mL)&#39;)
+JSC.set_ylabel(r&#39;$J$$\mathrm{_{SC}}$ (mA/cm$^2$)&#39;)
+
+# Define colors for the box faces
+box_colors = [&#39;pink&#39;, &#39;lightgreen&#39;, &#39;lightblue&#39;, &#39;orange&#39;]
+
+# Set box face colors for each box
+for box, color in zip(bplot1[&#39;boxes&#39;], box_colors):
+    box.set(facecolor=color)
+
+fig.tight_layout()
+
+plt.show()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Result:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Figure_8.svg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;lnlog图的绘制&#34;&gt;ln，log图的绘制&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.gridspec import GridSpec #把子图网格化
+from matplotlib.ticker import ScalarFormatter, MultipleLocator #定义轴是否使用科学计数法，定义坐标间距
+
+fig=plt.figure(figsize=(4,3.5),dpi=300,facecolor=&amp;quot;w&amp;quot;,constrained_layout=True) 
+gs=GridSpec(1,1)
+voc=plt.subplot(gs[0,0]) 
+#-----------VOC-Light
+VLR=np.loadtxt(&#39;./VOClightraw.txt&#39;)
+VLF=np.loadtxt(&#39;./VOClightfit.txt&#39;)
+xvlrc = VLR[:,0]
+yvlrc = VLR[:,1]
+xvlrt = VLR[:,0]
+yvlrt = VLR[:,2]
+xvlfc = VLF[:,0]
+yvlfc = VLF[:,1]
+xvlft = VLF[:,2]
+yvlft = VLF[:,3]
+
+voc.plot(xvlrc,yvlrc, &#39;o&#39;,ms=5,label=r&#39;control&#39;, color=&#39;C9&#39;)
+voc.plot(xvlrt,yvlrt, &#39;o&#39;,ms=5,label=r&#39;target&#39;, color=&#39;C6&#39;)
+voc.plot(xvlfc,yvlfc, &#39;-.&#39;, color=&#39;C9&#39;,linewidth=1) #,label=r&#39;control&#39;
+voc.plot(xvlft,yvlft, &#39;-.&#39;, color=&#39;C6&#39;,linewidth=1) #,label=r&#39;target&#39;
+
+voc.set_xlabel(r&#39;Light intensity (mW/cm$^{2}$)&#39;)
+voc.set_ylabel(r&#39;$V$$\mathrm{_{OC}}$ (V)&#39;)
+voc.set_xscale(&#39;symlog&#39;) #x轴以ln 对数形式 形式显示 voc.set_xscale(&#39;log&#39;)
+voc.set_xticks(xvlrc)
+#voc.set_xticks(xvlrc)：这行代码设置X轴的刻度位置为 
+# xvlrc，xvlrc 是一个包含刻度位置的列表或数组，用于自定义X轴的刻度位置
+voc.xaxis.set_major_formatter(ScalarFormatter()) 
+#设置X轴不使用科学计数法，这行代码设置X轴的主要刻
+# 度标签格式化器为ScalarFormatter，这将使用标准的数字格式来显示刻度标签。
+voc.yaxis.set_major_locator(MultipleLocator(0.02))
+#这将使Y轴的主要刻度线每隔0.02个单位显示一个。
+
+voc.text(20.59,1.12, r&amp;quot;1.16 $KT/q$&amp;quot;,color=&#39;C6&#39;,) 
+voc.text(21.1,1.0731, r&amp;quot;1.74 $KT/q$&amp;quot;,color=&#39;C9&#39;,) 
+
+voc.legend(frameon=False)
+
+fig.tight_layout()
+plt.show()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Result:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Figure_9.svg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;双图的制作&#34;&gt;双图的制作&lt;/h2&gt;
+&lt;p&gt;本节将展示单个图片展示的代码。以EIS数据为例&lt;/p&gt;
+&lt;h3 id=&#34;方法1使用循环命令定义多组数据的文件&#34;&gt;方法1：使用循环命令定义多组数据的文件&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from matplotlib.gridspec import GridSpec #把子图网格化
+
+fig=plt.figure(figsize=(7.24,3.5),dpi=200,facecolor=&amp;quot;w&amp;quot;,constrained_layout=True) 
+gs=GridSpec(1,2)
+
+sub1=plt.subplot(gs[0,0]) 
+sub2=plt.subplot(gs[0,1]) 
+#----------------------------------------EIS
+# 读取数据文件
+data = np.loadtxt(&amp;quot;EIS_raw.txt&amp;quot;)
+data1 = np.loadtxt(&amp;quot;EIS_fit.txt&amp;quot;)
+
+# 定义X和Y数据
+x_data = data[:, [0, 2, 4]]  # 第一列，第三列，第五列
+y_data = data[:, [1, 3, 5]]  # 第二列，第四列，第六列
+
+x_data1 = data1[:, [0, 2, 4]]  # 第一列，第三列，第五列
+y_data1 = data1[:, [1, 3, 5]]  # 第二列，第四列，第六列
+
+# 颜色和标签
+colors = [&#39;c&#39;, &#39;r&#39;, &#39;g&#39;]
+labels = [&#39;../PVK/..&#39;, &#39;../PEAI/PVK/..&#39;, &#39;../PEAI/PVK/PEAI/..&#39;]
+
+colors2 = [&#39;magenta&#39;, &#39;lightgreen&#39;, &#39;orange&#39;]
+
+# 循环绘制每列数据
+for i in range(x_data.shape[1]):
+    x = x_data[:, i]
+    y = y_data[:, i]
+
+    # 绘制点图
+    sub1.scatter(x, y, label=labels[i], color=colors[i],alpha=0.5)
+
+for k in range(x_data1.shape[1]):
+    x1 = x_data1[:, k]
+    y1 = y_data1[:, k]
+
+    # 绘制点图
+    sub1.plot(x1, y1, color=colors2[k],alpha=0.5)
+
+# 设置X轴和Y轴的坐标范围
+sub1.set_xlim(0, 700)
+sub1.set_ylim(0, 400)
+sub1.tick_params(axis=&#39;x&#39;, ) #labelsize=12
+sub1.tick_params(axis=&#39;y&#39;,)
+
+# 显示图例和设置标题
+sub1.set_xlabel(&#39;Z` ($\Omega $)&#39;,) # fontsize=12
+sub1.set_ylabel(&#39;-Z`` ($\Omega $)&#39;, )
+sub1.legend(frameon=False)
+#---------------------------------------------fitting
+# 定义X和Y数据
+x = [0,0.22,0.44,0.66,0.88,1.1]
+y1 = [210.4,95.2,79.6,62.5,57.2,52.3]
+y2 = [587.4,425.2,313.2,200.5,182.5,172.1]
+y3 = [820.4,620.5,570.2,398.2,350.1,342.5]
+
+# 绘制点图
+sub2.plot(x, y1, marker=&#39;o&#39;, linestyle=&#39;--&#39;, color=&#39;c&#39;, alpha=0.5,label=&#39;../PVK/..&#39;)
+sub2.plot(x, y2, marker=&#39;^&#39;, linestyle=&#39;-.&#39;, color=&#39;r&#39;,alpha=0.5, label=&#39;../PEAI/PVK/..&#39;)
+sub2.plot(x, y3, marker=&#39;D&#39;,linestyle=&#39;:&#39;, color=&#39;g&#39;, alpha=0.5,label=&#39;../PEAI/PVK/PEAI/..&#39;)
+
+# 设置X轴和Y轴的坐标范围
+sub2.set_xlim(-0.1, 1.2)
+#sub2.set_ylim(0, 400)
+sub2.tick_params(axis=&#39;x&#39;, ) #labelsize=12
+sub2.tick_params(axis=&#39;y&#39;,)
+
+# 显示图例和设置标题
+sub2.set_xlabel(&#39;Voltage (V)&#39;,) # fontsize=12
+sub2.set_ylabel(&#39;$R\mathrm{_{rec}} (Ω)$&#39; )
+sub2.legend(frameon=False)
+
+fig.tight_layout()
+# 显示图形
+plt.show()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Result:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Figure_2.svg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;方法2逐个定义数据&#34;&gt;方法2：逐个定义数据&lt;/h3&gt;
+&lt;p&gt;详见三图的绘制中的命令&lt;/p&gt;
+&lt;h2 id=&#34;三图的绘制&#34;&gt;三图的绘制&lt;/h2&gt;
+&lt;p&gt;最好少用，一般最多请使用2个图&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from matplotlib.gridspec import GridSpec #把子图网格化
+from matplotlib.ticker import FixedLocator, NullFormatter, MultipleLocator
+
+fig=plt.figure(figsize=(15,4))  #设置尺寸
+gs=GridSpec(1,3)
+
+xps1=plt.subplot(gs[0,0]) 
+xps2=plt.subplot(gs[0,1]) 
+xps3=plt.subplot(gs[0,2]) 
+
+#--------XPS-I
+# 读取数据文件
+xpsi=np.loadtxt(&#39;./XPSI.txt&#39;)
+b1 = xpsi[:,0]
+i1 = xpsi[:,1]
+b2 = xpsi[:,2]
+i2 = xpsi[:,3]
+
+#设置x轴的坐标范围，
+xps1.set_xlim([627,649])
+
+#绘制图片
+xps1.plot(b1+15,i1,label=r&#39;ITO/NiO$_X$&#39;, linestyle=&#39;-&#39;,linewidth=2,color=&#39;C0&#39;)
+xps1.plot(b2+15,i2,label=r&#39;ITO/NiO$_X$/PEAI&#39;, linestyle=&#39;-&#39;,linewidth=2,color=&#39;C1&#39;)
+
+#设置坐标名称等信息
+xps1.set_xlabel(r&#39;Binding energy (eV)&#39;)
+xps1.set_ylabel(r&#39;Intensity (a.u.)&#39;)
+xps1.text(629,3500, r&amp;quot;I 3$d$&amp;quot;) #设置位置va=&#39;top&#39;,ha=&#39;left&#39;
+
+xps1.xaxis.set_major_locator(MultipleLocator(3)) #设置坐标间隔为3
+# xps1.yaxis.set_major_locator(MultipleLocator(0.3))#设置坐标间隔为0.3
+
+xps1.legend(frameon=False, loc=&#39;upper right&#39;) #设置图例，并且设置图例的位置
+
+#-----------XPSO
+# 读取数据文件
+xpso=np.loadtxt(&#39;./XPSO.txt&#39;)
+b3 = xpso[:,0]
+i3 = xpso[:,1]
+b4 = xpso[:,2]
+i4 = xpso[:,3]
+
+xps2.set_xlim([523,537])
+
+xps2.plot(b4,i4,label=r&#39;ITO/NiO$_X$&#39;, linestyle=&#39;-&#39;,linewidth=2,color=&#39;C0&#39;)
+xps2.plot(b3,i3+600,label=r&#39;ITO/NiO$_X$/PEAI&#39;, linestyle=&#39;-&#39;,linewidth=2,color=&#39;C1&#39;)
+
+xps2.axvspan(527,531, facecolor=&#39;#2ca02c&#39;, alpha=0.1) #添加高亮显示，突出数据
+xps2.text(524,3000, r&amp;quot;O 1$s$&amp;quot;)
+
+xps2.set_xlabel(r&#39;Binding energy (eV)&#39;)
+xps2.set_ylabel(r&#39;Intensity (a.u.)&#39;)
+
+xps2.legend(frameon=False)
+#-----------XPSO
+#数据读取
+xpspvki=np.loadtxt(&#39;./XPSPVKI.txt&#39;)
+b5 = xpspvki[:,0]
+i5 = xpspvki[:,1]
+b6 = xpspvki[:,2]
+i6 = xpspvki[:,3]
+
+xps3.set_xlim([626,649])
+
+xps3.plot(b5,i5,label=r&#39;.../PEAI/PVK&#39;, linestyle=&#39;-&#39;,linewidth=2,color=&#39;C0&#39;)
+xps3.plot(b6,i6+2000,label=r&#39;.../PEAI/PVK/PEAI&#39;, linestyle=&#39;-&#39;,linewidth=2,color=&#39;C1&#39;)
+
+xps3.axvspan(629,635, facecolor=&#39;y&#39;, alpha=0.1) #添加高亮显示，突出数据
+xps3.text(646,5000, r&amp;quot;I 3$d$&amp;quot;)
+
+xps3.set_xlabel(r&#39;Binding energy (eV)&#39;)
+xps3.set_ylabel(r&#39;Intensity (a.u.)&#39;)
+
+xps3.legend(frameon=False)
+
+fig.tight_layout()
+
+plt.show()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Result:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Figure_3.svg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;四图的绘制&#34;&gt;四图的绘制&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from matplotlib.gridspec import GridSpec #把子图网格化
+
+
+fig=plt.figure(figsize=(7.24,6),dpi=200,facecolor=&amp;quot;w&amp;quot;,constrained_layout=True) 
+gs=GridSpec(2,2)
+
+sub1=plt.subplot(gs[0,0])  #组图的个数和位置
+sub2=plt.subplot(gs[0,1])  #组图的个数和位置
+sub3=plt.subplot(gs[1,0])  #组图的个数和位置
+sub4=plt.subplot(gs[1,1])  #组图的个数和位置 
+
+#-------------PCE
+PCE=np.loadtxt(&#39;./PCE.txt&#39;)
+
+v1 = PCE[:,0]
+j1 = PCE[:,1]
+v2 = PCE[:,2]
+j2 = PCE[:,3]
+v3 = PCE[:,4]
+j3 = PCE[:,5]
+
+sub1.set_xlim([0,1.23])
+sub1.set_ylim([0,18])
+
+sub1.plot(v3,j3,label=r&#39;../PVK/..&#39;, linestyle=&#39;-.&#39;,linewidth=2,color=&#39;c&#39;,alpha=0.5)
+sub1.plot(v2,j2,label=r&#39;../PEAI/PVK/..&#39;, linestyle=&#39;--&#39;,linewidth=2,color=&#39;r&#39;,alpha=0.5)
+sub1.plot(v1,j1,label=r&#39;../PEAI/PVK/PEAI/..&#39;, linestyle=&#39;-&#39;,linewidth=2,color=&#39;g&#39;,alpha=0.5)
+
+sub1.set_xlabel(r&#39;Voltage (V)&#39;)
+sub1.set_ylabel(r&#39;Current density (mA/cm$^{2}$)&#39;)
+
+sub1.legend(frameon=False)
+#--------IPEC
+IPCE=np.loadtxt(&#39;./IPCE.txt&#39;)
+W1 = IPCE[:,0]
+I1 = IPCE[:,1]
+I2 = IPCE[:,2]
+I3 = IPCE[:,3]
+
+sub2.set_xlim([300,800])
+sub2.set_ylim([0,1])
+
+sub2.plot(W1,I1,label=r&#39;../PVK/..&#39;, linestyle=&#39;-.&#39;,linewidth=2,color=&#39;c&#39;,alpha=0.5)
+sub2.plot(W1,I3,label=r&#39;../PEAI/PVK/..&#39;, linestyle=&#39;--&#39;,linewidth=2,color=&#39;r&#39;,alpha=0.5)
+sub2.plot(W1,I2,label=r&#39;../PEAI/PVK/PEAI/..&#39;, linestyle=&#39;-&#39;,linewidth=2,color=&#39;g&#39;,alpha=0.5)
+
+sub2.fill_between(W1,I1,I2,color=&#39;tab:orange&#39;,alpha=0.32) #两条线之间填充颜色
+sub2.fill_between(W1,I2,I3,color=&#39;green&#39;,alpha=0.32) #两条线之间填充颜色
+
+sub2.set_xlabel(r&#39;Wavelength (nm)&#39;)
+sub2.set_ylabel(r&#39;IPCE&#39;)
+
+sub2.legend(frameon=False)
+#-----------N2
+N2=np.loadtxt(&#39;./N2.txt&#39;)
+T1 = N2[:,0]
+P1 = N2[:,1]
+P2 = N2[:,2]
+P3 = N2[:,3]
+
+sub3.set_xlim([-100,2100])
+sub3.set_ylim([0,110])
+
+sub3.plot(T1,P1,label=r&#39;../PVK/..&#39;, linestyle=&#39;-&#39;,linewidth=2,color=&#39;c&#39;,marker=&#39;o&#39;,markersize=4,alpha=0.5)
+sub3.plot(T1,P2,label=r&#39;../PEAI/PVK/..&#39;, linestyle=&#39;-&#39;,linewidth=2,color=&#39;r&#39;,marker=&#39;^&#39;,markersize=4,alpha=0.5)
+sub3.plot(T1,P3,label=r&#39;../PEAI/PVK/PEAI/..&#39;, linestyle=&#39;-&#39;,linewidth=2,color=&#39;g&#39;,marker=&#39;p&#39;,markersize=4,alpha=0.5)
+
+sub3.set_xlabel(r&#39;Time (h)&#39;)
+sub3.set_ylabel(r&#39;Norm. PCE (%)&#39;)
+
+sub3.text(1900,10,r&#39;N$_{2}$&#39;)
+
+sub3.legend(frameon=False)
+#-----------hot stability
+H=np.loadtxt(&#39;./hot.txt&#39;)
+Ti1 = H[:,0]
+Pc1 = H[:,1]
+Pc2 = H[:,2]
+Pc3 = H[:,3]
+
+sub4.set_xlim([-10,510])
+sub4.locator_params(&#39;x&#39;,nbins=10)
+sub4.set_ylim([0,110])
+
+sub4.plot(Ti1,Pc1,label=r&#39;../PVK/..&#39;, linestyle=&#39;-&#39;,linewidth=2,color=&#39;c&#39;,marker=&#39;o&#39;,markersize=4,alpha=0.5)
+sub4.plot(Ti1,Pc2,label=r&#39;../PEAI/PVK/..&#39;, linestyle=&#39;-&#39;,linewidth=2,color=&#39;r&#39;,marker=&#39;^&#39;,markersize=4,alpha=0.5)
+sub4.plot(Ti1,Pc3,label=r&#39;../PEAI/PVK/PEAI/..&#39;, linestyle=&#39;-&#39;,linewidth=2,color=&#39;g&#39;,marker=&#39;p&#39;,markersize=4,alpha=0.5)
+
+
+sub4.set_xlabel(r&#39;Time (h)&#39;)
+sub4.set_ylabel(r&#39;Norm. PCE (%)&#39;)
+
+#sub4.legend(shadow=True, fancybox=True) #图例窗口会有阴影
+sub4.legend(frameon=False)
+
+sub4.text(430,10,r&#39;85℃&#39;)
+
+fig.tight_layout()
+plt.show()
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Result:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Figure_4.svg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;六图的绘制&#34;&gt;六图的绘制&lt;/h2&gt;
+&lt;p&gt;这里展示的六图的展示使用的是4张绘制的图，另外留白两个图用于SEM等等的展示。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from threading import local
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from matplotlib.gridspec import GridSpec #把子图网格化
+
+fig=plt.figure(figsize=(6,8),layout=&#39;constrained&#39;)  #figsize=(12,9) figsize=(12,10)
+gs=GridSpec(3,2)  #定义三行两列的子图
+
+xpsn=plt.subplot(gs[1,1]) #组图的个数和位置
+xpss=plt.subplot(gs[2,0]) #组图的个数和位置 
+xpso=plt.subplot(gs[2,1]) #组图的个数和位置  
+xpspb=plt.subplot(gs[1,0]) #组图的个数和位置  
+
+#-------------XPS N
+#分别导入数据，并且分别定义各个数据的x和y列
+P1=np.loadtxt(&#39;./powder_n1s_rawfit.txt&#39;)
+P2=np.loadtxt(&#39;./powder_n1s_fenfeng.txt&#39;)
+b0 = P1[::3,0]
+i0 = P1[::3,1]
+b1 = P1[:,0]
+i1 = P1[:,2]
+b2 = P2[:,0]
+i2 = P2[:,1]
+i3 = P2[:,2]
+i4 = P2[:,3]
+i5 = P2[:,4]
+i6 = P2[:,5]
+
+xpsn.scatter(b0,i0-10000, s=13,marker=&#39;o&#39;,alpha=0.6,linewidth=0.7,color=&#39;C11&#39;)
+xpsn.plot(b1,i1-10000, label=r&#39;powder&#39;,linestyle=&#39;-&#39;,linewidth=0.7,color=&#39;C11&#39;)
+xpsn.plot(b2,i2-10000, linestyle=&#39;-.&#39;,linewidth=1,color=&#39;C1&#39;)
+xpsn.plot(b2,i3-10000, linestyle=&#39;-&#39;,linewidth=1,color=&#39;C3&#39;)
+xpsn.plot(b2,i4-10000, linestyle=&#39;-&#39;,linewidth=1,color=&#39;C4&#39;)
+xpsn.plot(b2,i5-10000, linestyle=&#39;-&#39;,linewidth=1,color=&#39;C5&#39;)
+xpsn.plot(b2,i6-10000, linestyle=&#39;-&#39;,linewidth=1,color=&#39;C8&#39;)
+#第二组数据
+C1=np.loadtxt(&#39;./con_n1s_rawfit.txt&#39;)
+C2=np.loadtxt(&#39;./con_n1s_fenfeng.txt&#39;)
+a0 = C1[::3,0]
+c0 = C1[::3,1]
+a1 = C1[:,0]
+c1 = C1[:,2]
+a2 = C2[:,0]
+c2 = C2[:,1]
+c3 = C2[:,2]
+c4 = C2[:,3]
+
+xpsn.scatter(a0,c0-20000, s=13,marker=&#39;o&#39;,alpha=0.6,linewidth=0.7,color=&#39;C9&#39;)
+xpsn.plot(a1,c1-20000, label=r&#39;control&#39;, linestyle=&#39;-&#39;,linewidth=0.7,color=&#39;C9&#39;)
+xpsn.plot(a2,c2-20000, linestyle=&#39;-.&#39;,linewidth=1,color=&#39;C1&#39;)
+xpsn.plot(a2,c3-20000, linestyle=&#39;-&#39;,linewidth=1,color=&#39;C3&#39;)
+xpsn.plot(a2,c4-20000, linestyle=&#39;-&#39;,linewidth=1,color=&#39;C4&#39;)
+#第三组数据
+T1=np.loadtxt(&#39;./tar_n1s_rawfit.txt&#39;)
+T2=np.loadtxt(&#39;./tar_n1s_fenfeng.txt&#39;)
+d0 = T1[::3,0]
+e0 = T1[::3,1]
+d1 = T1[:,0]
+e1 = T1[:,2]
+d2 = T2[:,0]
+e2 = T2[:,1]
+e3 = T2[:,2]
+e4 = T2[:,3]
+e5 = T2[:,4]
+
+xpsn.scatter(d0,e0+60000, s=13,marker=&#39;o&#39;,alpha=0.6,linewidth=.7,color=&#39;C6&#39;)
+xpsn.plot(d1,e1+60000, label=r&#39;target&#39;, linestyle=&#39;-&#39;,linewidth=.7,color=&#39;C6&#39;)
+xpsn.plot(d2,e2+60000, linestyle=&#39;-.&#39;,linewidth=1,color=&#39;C1&#39;)
+xpsn.plot(d2,e3+60000, linestyle=&#39;-&#39;,linewidth=1,color=&#39;C3&#39;)
+xpsn.plot(d2,e4+60000, linestyle=&#39;-&#39;,linewidth=1,color=&#39;C4&#39;)
+xpsn.plot(d2,e5+60000, linestyle=&#39;-&#39;,linewidth=1,color=&#39;C5&#39;)
+
+xpsn.set_xlabel(r&#39;Binding energy (eV)&#39;)
+xpsn.set_ylabel(r&#39;Intensity (a.u.)&#39;)
+
+xpsn.text(396,110000, r&amp;quot;N 1$s$&amp;quot;)  #添加文本
+
+xpsn.ticklabel_format(style=&#39;sci&#39;,scilimits=(-1,2),axis=&#39;y&#39;)
+#scilimits=(-1, 2)：这是另一个函数参数，用于指定在什么条件下使用科学计数法。在这个例子中，-1 表示小于或等于 0 的值都使用科学计数法，
+# 而 2 表示大于等于 100 的值也使用科学计数法。这是Matplotlib的默认设置，通常用于科学计数法的标签。
+
+xpsn.yaxis.set_major_locator(plt.NullLocator()) #不显示y轴的主要刻度
+xpsn.yaxis.set_major_formatter(plt.NullFormatter()) #不显示y轴的主要刻度标签
+
+xpsn.legend(loc=&#39;center left&#39;,frameon=False) #图例和位置
+xpsn.set_xlim([395,405])
+#添加note注释
+xpsn.annotate(&#39;FA$^{+}$&#39;, xy=(400.57,115662.97), xytext=(402.95,111162.72),
+              arrowprops=dict(arrowstyle=&#39;-&amp;gt;&#39;,connectionstyle=&#39;arc3,rad=.2&#39;))
+xpsn.annotate(&#39;N1&#39;, xy=(398.84,94972.29), xytext=(397.99,101040.94),
+              arrowprops=dict(arrowstyle=&#39;-&amp;gt;&#39;,connectionstyle=&#39;arc3,rad=.2&#39;))
+xpsn.annotate(&#39;N2&#39;, xy=(402.08,95963.09), xytext=(403.06,101164.79),
+              arrowprops=dict(arrowstyle=&#39;-&amp;gt;&#39;,connectionstyle=&#39;arc3,rad=.2&#39;))
+xpsn.annotate(&#39;FA$^{+}$&#39;, xy=(400.29,72803.5), xytext=(402.12,71316.95),
+              arrowprops=dict(arrowstyle=&#39;-&amp;gt;&#39;,connectionstyle=&#39;arc3,rad=.2&#39;))
+xpsn.annotate(&#39;N1&#39;, xy=(397.88,18185.33), xytext=(396.99,24253.97),
+              arrowprops=dict(arrowstyle=&#39;-&amp;gt;&#39;,connectionstyle=&#39;arc3,rad=.2&#39;))
+xpsn.annotate(&#39;N2&#39;, xy=(400.59,18556.88), xytext=(401.85,25120.92),
+              arrowprops=dict(arrowstyle=&#39;-&amp;gt;&#39;,connectionstyle=&#39;arc3,rad=.2&#39;))
+#--------XPS S
+Ps1=np.loadtxt(&#39;./powder_s2p_rawfitbac.txt&#39;)
+Ps2=np.loadtxt(&#39;./powder_s2p_fenfeng.txt&#39;)
+b0 = Ps1[::2,0]
+i0 = Ps1[::2,1]
+b1 = Ps1[:,0]
+i1 = Ps1[:,2]
+ib = Ps1[:,3]
+b2 = Ps2[:,0]
+i2 = Ps2[:,1]
+i3 = Ps2[:,2]
+i4 = Ps2[:,3]
+i5 = Ps2[:,4]
+
+xpss.scatter(b0,i0, s=13,marker=&#39;o&#39;,alpha=0.6,linewidth=0.7,color=&#39;C11&#39;)
+xpss.plot(b1,i1, linestyle=&#39;-&#39;,linewidth=0.7,color=&#39;C11&#39;)
+xpss.plot(b1,ib, label=r&#39;powder&#39;,linestyle=&#39;-&#39;,linewidth=0.7,color=&#39;C11&#39;)
+xpss.plot(b2,i2, linestyle=&#39;-.&#39;,linewidth=1,color=&#39;C1&#39;)
+xpss.plot(b2,i3, linestyle=&#39;-&#39;,linewidth=1,color=&#39;C3&#39;)
+xpss.plot(b2,i4, linestyle=&#39;-&#39;,linewidth=1,color=&#39;C4&#39;)
+xpss.plot(b2,i5, linestyle=&#39;-&#39;,linewidth=1,color=&#39;C5&#39;)
+
+Ts1=np.loadtxt(&#39;./tar_s2p_rawfitbac.txt&#39;)
+Ts2=np.loadtxt(&#39;./tar_s2p_fenfeng.txt&#39;)
+d0 = Ts1[::2,0]
+e0 = Ts1[::2,1]
+d1 = Ts1[:,0]
+e1 = Ts1[:,2]
+eb = Ts1[:,3]
+d2 = Ts2[:,0]
+e2 = Ts2[:,1]
+e3 = Ts2[:,2]
+e4 = Ts2[:,3]
+e5 = Ts2[:,4]
+
+xpss.scatter(d0,e0+30000, s=13,marker=&#39;o&#39;,alpha=0.6,linewidth=.7,color=&#39;C6&#39;)
+xpss.plot(d1,e1+30000, linestyle=&#39;-&#39;,linewidth=.7,color=&#39;C6&#39;)
+xpss.plot(d1,eb+30000, label=r&#39;target&#39;, linestyle=&#39;-&#39;,linewidth=.7,color=&#39;C6&#39;)
+xpss.plot(d2,e2+30000, linestyle=&#39;-.&#39;,linewidth=1,color=&#39;C1&#39;)
+xpss.plot(d2,e3+30000, linestyle=&#39;-&#39;,linewidth=1,color=&#39;C3&#39;)
+xpss.plot(d2,e4+30000, linestyle=&#39;-&#39;,linewidth=1,color=&#39;C4&#39;)
+xpss.plot(d2,e5+30000, linestyle=&#39;-&#39;,linewidth=1,color=&#39;C5&#39;)
+
+xpss.set_xlabel(r&#39;Binding energy (eV)&#39;)
+xpss.set_ylabel(r&#39;Intensity (a.u.)&#39;)
+xpss.text(158.8,63000, r&amp;quot;S 2$p$&amp;quot;) 
+
+xpss.ticklabel_format(style=&#39;sci&#39;,scilimits=(-1,2),axis=&#39;y&#39;)
+
+xpss.legend(frameon=False)
+xpss.set_xlim([158,172])
+
+xpss.yaxis.set_major_locator(plt.NullLocator())
+xpss.yaxis.set_major_formatter(plt.NullFormatter())
+
+xpss.annotate(&#39;C-S&#39;, xy=(163.28,22822.82), xytext=(167.49,20024.65),
+              arrowprops=dict(arrowstyle=&#39;-&amp;gt;&#39;,connectionstyle=&#39;arc3,rad=.2&#39;))
+#-----------XPS O
+PO1=np.loadtxt(&#39;./powder_o1s_rawfit.txt&#39;)
+PO2=np.loadtxt(&#39;./powder_o1s_fenfeng.txt&#39;)
+b0 = PO1[::2,0]
+i0 = PO1[::2,1]
+b1 = PO1[:,0]
+i1 = PO1[:,2]
+b2 = PO2[:,0]
+i2 = PO2[:,1]
+i3 = PO2[:,2]
+i4 = PO2[:,3]
+
+xpso.scatter(b0,i0, s=13,marker=&#39;o&#39;,alpha=0.6,linewidth=0.7,color=&#39;C11&#39;)
+xpso.plot(b1,i1, label=r&#39;powder&#39;,linestyle=&#39;-&#39;,linewidth=0.7,color=&#39;C11&#39;)
+xpso.plot(b2,i2, linestyle=&#39;-.&#39;,linewidth=1,color=&#39;C1&#39;)
+xpso.plot(b2,i3, linestyle=&#39;-&#39;,linewidth=1,color=&#39;C3&#39;)
+xpso.plot(b2,i4, linestyle=&#39;-&#39;,linewidth=1,color=&#39;C4&#39;)
+
+TO1=np.loadtxt(&#39;./tar_o1s_rawfit.txt&#39;)
+TO2=np.loadtxt(&#39;./tar_o1s_fenfeng.txt&#39;)
+d0 = TO1[::2,0]
+e0 = TO1[::2,1]
+d1 = TO1[:,0]
+e1 = TO1[:,2]
+d2 = TO2[:,0]
+e2 = TO2[:,1]
+e3 = TO2[:,2]
+e4 = TO2[:,3]
+
+xpso.scatter(d0,e0+200000, s=13,marker=&#39;o&#39;,alpha=0.6,linewidth=.7,color=&#39;C6&#39;)
+xpso.plot(d1,e1+200000, label=r&#39;target&#39;,linestyle=&#39;-&#39;,linewidth=.7,color=&#39;C6&#39;)
+xpso.plot(d2,e2+200000, linestyle=&#39;-.&#39;,linewidth=1,color=&#39;C1&#39;)
+xpso.plot(d2,e3+200000, linestyle=&#39;-&#39;,linewidth=1,color=&#39;C3&#39;)
+xpso.plot(d2,e4+200000, linestyle=&#39;-&#39;,linewidth=1,color=&#39;C4&#39;)
+
+xpso.set_xlabel(r&#39;Binding energy (eV)&#39;)
+xpso.set_ylabel(r&#39;Intensity (a.u.)&#39;)
+xpso.text(535,350000, r&amp;quot;O 1$s$&amp;quot;) 
+
+xpso.ticklabel_format(style=&#39;sci&#39;,scilimits=(-1,2),axis=&#39;y&#39;)
+
+xpso.legend(frameon=False)
+xpso.set_xlim([526,538])
+xpso.yaxis.set_major_locator(plt.NullLocator())
+xpso.yaxis.set_major_formatter(plt.NullFormatter())
+
+xpso.annotate(&#39;C=O&#39;, xy=(531.26,74439.48), xytext=(528.32,87678.72),
+              arrowprops=dict(arrowstyle=&#39;-&amp;gt;&#39;,connectionstyle=&#39;arc3,rad=.2&#39;))
+xpso.annotate(&#39;C-O-H&#39;, xy=(532.16,116048.53), xytext=(535.29,133070.41),
+              arrowprops=dict(arrowstyle=&#39;-&amp;gt;&#39;,connectionstyle=&#39;arc3,rad=.2&#39;))
+#-----------XPS Pb
+Pb=np.loadtxt(&#39;./XPSPb.txt&#39;)
+cxpb = Pb[::3,0]
+cypb = Pb[::3,1]
+txpb = Pb[::3,2]
+typb = Pb[::3,3]
+
+xpspb.plot(txpb,typb, &#39;o-&#39;,ms=4,label=r&#39;control&#39;,linewidth=.8,alpha=0.6,color=&#39;C9&#39;)
+xpspb.plot(cxpb,cypb+120000, &#39;o-&#39;,ms=4,label=r&#39;target&#39;,linewidth=.8,alpha=0.6,color=&#39;C6&#39;)
+
+xpspb.set_xlabel(r&#39;Binding energy (eV)&#39;)
+xpspb.set_ylabel(r&#39;Intensity (a.u.)&#39;)
+xpspb.ticklabel_format(style=&#39;sci&#39;,scilimits=(-1,2),axis=&#39;y&#39;)
+xpspb.set_xlim([135,149])
+
+xpspb.yaxis.set_major_locator(plt.NullLocator())
+xpspb.yaxis.set_major_formatter(plt.NullFormatter())
+
+xpspb.legend(frameon=False)
+
+xpspb.text(135.50,380000.16, r&amp;quot;Pb 4$f$&amp;quot;) 
+
+#点击数据的时候，会在图上显示出点的信息
+def onclick(event):
+    if event.inaxes is not None:
+        x_coord, y_coord = event.xdata, event.ydata
+        xpsn.set_title(f&#39;Clicked at x={x_coord:.2f}, y={y_coord:.2f}&#39;)
+        fig.canvas.draw()
+
+# 连接鼠标点击事件处理函数
+fig.canvas.mpl_connect(&#39;button_press_event&#39;, onclick)
+
+fig.tight_layout()
+plt.show() 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Result:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Figure_5.svg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;总结&#34;&gt;总结&lt;/h2&gt;
+&lt;p&gt;我们定义了不同图片的展示方式，其实主要是为了提供一个尺寸。并且给出相应的代码，如果想要绘制其他类型的图片，可以参考之后的代码。在这里，我们总计以下不同个数的图片通常规定的图片尺寸。&lt;/p&gt;
+ &lt;div align=&#34;center&#34;&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;图的个数&lt;/th&gt;
+&lt;th&gt;尺寸&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1个图&lt;/td&gt;
+&lt;td&gt;figsize=(4,3.5)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2个图&lt;/td&gt;
+&lt;td&gt;figsize=(7.24,3.5)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3个图&lt;/td&gt;
+&lt;td&gt;figsize=(15,4)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4个图&lt;/td&gt;
+&lt;td&gt;figsize=(7.24,6)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;6个图&lt;/td&gt;
+&lt;td&gt;figsize=(6,8)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;h1 id=&#34;pscs论文中常用的图片的代码和显示&#34;&gt;PSCs论文中常用的图片的代码和显示&lt;/h1&gt;
+&lt;h2 id=&#34;pscs的各个参数统计图&#34;&gt;PSCs的各个参数统计图&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from ssl import ALERT_DESCRIPTION_HANDSHAKE_FAILURE
+from threading import local
+from tkinter import ttk
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from matplotlib.gridspec import GridSpec #把子图网格化
+from matplotlib.ticker import FixedLocator, NullFormatter
+import matplotlib.transforms as mtransforms
+
+
+fig=plt.figure(dpi=300) 
+gs=GridSpec(2,2)
+
+JSC=plt.subplot(gs[0,0]) #组图的个数和位置
+VOC=plt.subplot(gs[0,1]) 
+FF=plt.subplot(gs[1,0]) 
+PCE=plt.subplot(gs[1,1]) 
+
+#-------------JSC
+data = np.loadtxt(&#39;./TONGJI.txt&#39;)
+labels = [&#39;0&#39;,&#39;0.25&#39;,&#39;0.5&#39;,&#39;1&#39;]
+data1 = [data[:,0],data[:,4],data[:,8],data[:,12]]
+
+bplot1 = JSC.boxplot(data1,
+                     vert=True,  # vertical box alignment
+                     patch_artist=True,  # fill with color
+                     labels=labels)  # will be used to label x-ticks
+#JSC.set_title(&#39;JSC (mA/cm$^2$)&#39;)
+JSC.set_xlabel(r&#39;Concentration of MMTA (mg/mL)&#39;)
+JSC.set_ylabel(r&#39;$J$$\mathrm{_{SC}}$ (mA/cm$^2$)&#39;)  #正体下标
+
+#-------------VOC
+data2 = [data[:,1],data[:,5],data[:,9],data[:,13]]
+
+bplot2 = VOC.boxplot(data2,
+                     vert=True,  # vertical box alignment
+                     patch_artist=True,  # fill with color
+                     labels=labels)  # will be used to label x-ticks
+VOC.set_xlabel(&#39;Concentration of MMTA (mg/mL)&#39;)
+VOC.set_ylabel(&#39;$V$$\mathrm{_{OC}}$ (V)&#39;) #正体下标
+#-------------FF
+data3 = [data[:,2],data[:,6],data[:,10],data[:,14]]
+
+bplot3 = FF.boxplot(data3,
+                     vert=True,  # vertical box alignment
+                     patch_artist=True,  # fill with color
+                     labels=labels)  # will be used to label x-ticks
+FF.set_xlabel(&#39;Concentration of MMTA (mg/mL)&#39;)
+FF.set_ylabel(&#39;FF&#39;)
+#-------------PCE
+data4 = [data[:,3],data[:,7],data[:,11],data[:,15]]
+
+bplot4 = PCE.boxplot(data4,
+                     vert=True,  # vertical box alignment
+                     patch_artist=True,  # fill with color
+                     labels=labels)  # will be used to label x-ticks
+PCE.set_xlabel(&#39;Concentration of MMTA (mg/mL)&#39;)
+PCE.set_ylabel(&#39;PCE&#39;)
+
+# fill with colors
+colors = [&#39;pink&#39;, &#39;lightgreen&#39;, &#39;lightblue&#39;,&#39;orange&#39;]
+for bplot in (bplot1, bplot2, bplot3, bplot4):
+    for patch, color in zip(bplot[&#39;boxes&#39;], colors):
+        patch.set_facecolor(color)
+
+fig.tight_layout()
+
+plt.show()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Result:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Figure_10.svg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;trpl的数据拟合&#34;&gt;TRPL的数据拟合&lt;/h2&gt;
+&lt;p&gt;本代码可以在拟合寿命的同时，在面板上给出荧光的各个数据.可以根据自己的需求，去更改定义的函数&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import numpy as np
+import matplotlib.pyplot as plt
+from scipy.optimize import curve_fit
+
+# 定义一个双指数衰减函数 (ExpDec2)
+def exp_dec2(x, A1, tau1, A2, tau2):
+    return A1 * np.exp(-x / tau1) + A2 * np.exp(-x / tau2)
+
+# 读取数据文件
+data = np.loadtxt(&amp;quot;TRPL.txt&amp;quot;)
+
+# 定义X和Y数据
+x_data = data[:, [0, 2, 4]]  # 第一列，第三列，第五列
+y_data = data[:, [1, 3, 5]]  # 第二列，第四列，第六列
+
+# 创建一个图形窗口
+plt.figure() #figsize=(10, 6)
+
+# 初始化参数列表
+params_list = []
+
+# 颜色和标签
+colors = [&#39;c&#39;, &#39;r&#39;, &#39;g&#39;]
+labels = [&#39;NiO$x$/PVK&#39;, &#39;NiO$x$/PEAI/PVK/C60&#39;, &#39;NiO$x$/PEAI/PVK/PEAI/C60&#39;]
+
+colors2 = [&#39;magenta&#39;, &#39;lightgreen&#39;, &#39;orange&#39;]
+
+# 循环拟合和绘制每列数据
+for i in range(x_data.shape[1]):
+    x = x_data[:, i]
+    y = y_data[:, i]
+
+    # 使用curve_fit进行拟合
+    params, covariance = curve_fit(exp_dec2, x, y, p0=[1.0, 1.0, 0.5, 0.2])
+    A1_fit, tau1_fit, A2_fit, tau2_fit = params
+
+    # 计算平均荧光寿命
+    average_lifetime = (A1_fit * tau1_fit * tau1_fit + A2_fit * tau2_fit * tau2_fit) / (A1_fit * tau1_fit + A2_fit * tau2_fit)
+
+    # 绘制原始数据和拟合曲线
+    plt.semilogy(x, y, label=labels[i], color=colors[i],alpha=0.5)
+    plt.semilogy(x, exp_dec2(x, A1_fit, tau1_fit, A2_fit, tau2_fit), color=colors2[i], linestyle=&#39;--&#39;)
+
+    # 将拟合参数以文本形式显示在图中
+ #   fit_info = f&amp;quot;Data {i + 1}:\nA1: {A1_fit:.2f}, tau1: {tau1_fit:.2f}\nA2: {A2_fit:.2f}, tau2: {tau2_fit:.2f}\nAverage Lifetime: {average_lifetime:.2f}&amp;quot;
+ #   plt.text(2.0, 0.05, fit_info, fontsize=10, verticalalignment=&#39;top&#39;)
+
+    # 将参数添加到参数列表
+    params_list.append(params)
+
+# 设置X轴的显示范围
+plt.xlim(0, 100)
+plt.ylim(0.01, 1)
+
+# 显示图例和设置标题
+plt.xlabel(&#39;Time (ns)&#39;,fontsize=12)
+plt.ylabel(&#39;Intensity (a.u.)&#39;,fontsize=12)
+plt.legend(frameon=False,fontsize=10)
+
+plt.tick_params(axis=&#39;x&#39;, labelsize=12)
+plt.tick_params(axis=&#39;y&#39;, labelsize=12)
+
+plt.text(1, 0.020, r&amp;quot;$\tau$$\mathrm{_{control/avg.}}$ = 38.77 ns &amp;quot;, fontsize=10, color=&#39;c&#39;,alpha=0.5)
+plt.text(1, 0.015, r&amp;quot;$\tau$$\mathrm{_{bottom/avg.}}$ = 27.04 ns &amp;quot;, fontsize=10, color=&#39;r&#39;,alpha=0.5)
+plt.text(1, 0.011, r&amp;quot;$\tau$$\mathrm{_{both/avg.}}$ = 16.72 ns &amp;quot;, fontsize=10, color=&#39;g&#39;,alpha=0.5)
+
+plt.tight_layout()
+
+# 显示图形
+plt.show()
+
+# 打印拟合参数和平均荧光寿命
+for i, params in enumerate(params_list):
+    A1_fit, tau1_fit, A2_fit, tau2_fit = params
+    average_lifetime = (A1_fit * tau1_fit * tau1_fit + A2_fit * tau2_fit * tau2_fit) / (A1_fit * tau1_fit + A2_fit * tau2_fit)
+    print(f&amp;quot;Data {i + 1} - Fitted Parameters:&amp;quot;)
+    print(f&amp;quot;A1: {A1_fit}, tau1: {tau1_fit}, A2: {A2_fit}, tau2: {tau2_fit}&amp;quot;)
+    print(f&amp;quot;Average Lifetime: {average_lifetime}&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Result:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Figure_11.svg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;暗态光电流显示&#34;&gt;暗态光电流显示&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from matplotlib.gridspec import GridSpec #把子图网格化
+from matplotlib.ticker import FixedLocator, NullFormatter, MultipleLocator
+import matplotlib.transforms as mtransforms
+
+cm = 1/2.54 
+
+fig=plt.figure(figsize=(4,3.5),dpi=300,facecolor=&amp;quot;w&amp;quot;,constrained_layout=True) 
+gs=GridSpec(1,1)
+
+sub3=plt.subplot(gs[0,0]) 
+#----------------------------------DARK CURRENT
+dc1 = np.loadtxt(&amp;quot;dc1.txt&amp;quot;)
+dc2 = np.loadtxt(&amp;quot;dc2.txt&amp;quot;)
+dc3 = np.loadtxt(&amp;quot;dc3.txt&amp;quot;)
+
+x3 = dc1[:,0] 
+y3 = dc1[:,1]  
+x4 = dc2[:,0] 
+y4 = dc2[:,1]  
+x5 = dc3[:,0] 
+y5 = dc3[:,1]  
+
+sub3.semilogy(x3, y3, label=&amp;quot;ITO/NiOx/PVK/..&amp;quot;, color=&amp;quot;c&amp;quot;,alpha=0.5)
+sub3.semilogy(x4, y4, label=&amp;quot;ITO/NiOx/PEAI/PVK/..&amp;quot;, color=&amp;quot;r&amp;quot;,alpha=0.5)
+sub3.semilogy(x5, y5, label=&amp;quot;ITO/NiOx/PEAI/PVK/PEAI/..&amp;quot;, color=&amp;quot;g&amp;quot;,alpha=0.5)
+
+sub3.set_xlim(-0.2,0.5)
+sub3.set_ylim(0.002,100)
+
+# 显示图例和设置标题
+sub3.set_xlabel(&#39;Voltage (V)&#39;)
+sub3.set_ylabel(&#39;$J\mathrm{_{SC}}$ (mA/cm$^{2}$) &#39;, )
+sub3.legend(frameon=False,loc=&#39;lower right&#39;,fontsize=10)
+
+
+fig.tight_layout()
+# 显示图形
+plt.show()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Result:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Figure_12.svg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;iv曲线的绘制&#34;&gt;IV曲线的绘制&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.gridspec import GridSpec #把子图网格化
+
+fig=plt.figure(figsize=(4,3.5),dpi=300,facecolor=&amp;quot;w&amp;quot;,constrained_layout=True) 
+gs=GridSpec(1,1)
+sub1=plt.subplot(gs[0,0]) #组图的个数和位置
+
+PCE=np.loadtxt(&#39;./PCE.txt&#39;)
+v1 = PCE[:,0]
+j1 = PCE[:,1]
+v2 = PCE[:,2]
+j2 = PCE[:,3]
+v3 = PCE[:,4]
+j3 = PCE[:,5]
+
+sub1.set_xlim([0,1.23])
+sub1.locator_params(&#39;x&#39;,nbins=10) #设置横坐标的刻度
+sub1.set_ylim([0,18])
+sub1.locator_params(&#39;y&#39;,nbins=5)
+
+sub1.plot(v3,j3,label=r&#39;../PVK/..&#39;, linestyle=&#39;-.&#39;,linewidth=2,color=&#39;c&#39;,alpha=0.5)
+sub1.plot(v2,j2,label=r&#39;../PEAI/PVK/..&#39;, linestyle=&#39;--&#39;,linewidth=2,color=&#39;r&#39;,alpha=0.5)
+sub1.plot(v1,j1,label=r&#39;../PEAI/PVK/PEAI/..&#39;, linestyle=&#39;-&#39;,linewidth=2,color=&#39;g&#39;,alpha=0.5)
+
+sub1.set_xlabel(r&#39;Voltage (V)&#39;)
+sub1.set_ylabel(r&#39;Current density (mA/cm$^{2}$)&#39;)
+
+sub1.legend(frameon=False)
+fig.tight_layout()
+plt.show()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Result:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Figure_13.svg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ipce的绘制&#34;&gt;IPCE的绘制&lt;/h2&gt;
+&lt;h3 id=&#34;没有积分电流&#34;&gt;没有积分电流&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.gridspec import GridSpec #把子图网格化
+
+fig=plt.figure(figsize=(4,3.5),dpi=300,facecolor=&amp;quot;w&amp;quot;,constrained_layout=True) 
+gs=GridSpec(1,1)
+sub2=plt.subplot(gs[0,0]) #组图的个数和位置
+
+IPCE=np.loadtxt(&#39;./IPCE.txt&#39;)
+W1 = IPCE[:,0]
+I1 = IPCE[:,1]
+I2 = IPCE[:,2]
+I3 = IPCE[:,3]
+
+sub2.set_xlim([300,800])
+sub2.set_ylim([0,1])
+
+sub2.plot(W1,I1,label=r&#39;../PVK/..&#39;, linestyle=&#39;-.&#39;,linewidth=2,color=&#39;c&#39;,alpha=0.5)
+sub2.plot(W1,I3,label=r&#39;../PEAI/PVK/..&#39;, linestyle=&#39;--&#39;,linewidth=2,color=&#39;r&#39;,alpha=0.5)
+sub2.plot(W1,I2,label=r&#39;../PEAI/PVK/PEAI/..&#39;, linestyle=&#39;-&#39;,linewidth=2,color=&#39;g&#39;,alpha=0.5)
+
+sub2.fill_between(W1,I1,I2,color=&#39;tab:orange&#39;,alpha=0.32) #两条线之间填充颜色
+sub2.fill_between(W1,I2,I3,color=&#39;green&#39;,alpha=0.32) #两条线之间填充颜色
+
+sub2.set_xlabel(r&#39;Wavelength (nm)&#39;)
+sub2.set_ylabel(r&#39;IPCE&#39;)
+
+sub2.legend(frameon=False)
+fig.tight_layout()
+plt.show()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Result:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Figure_14.svg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;有积分电流的双y轴绘制&#34;&gt;有积分电流的双Y轴绘制&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.gridspec import GridSpec #把子图网格化
+
+fig=plt.figure(figsize=(4,3.5),dpi=300,facecolor=&amp;quot;w&amp;quot;,constrained_layout=True) 
+gs=GridSpec(1,1)
+
+sub2=plt.subplot(gs[0,0]) #组图的个数和位置
+
+IPCEc=np.loadtxt(&#39;./IPCE_CONT.txt&#39;)
+IPCEt=np.loadtxt(&#39;./IPCE_TART.txt&#39;)
+W1 = IPCEc[:,0]
+I1 = IPCEc[:,1]
+J1 = IPCEc[:,2]
+W2 = IPCEt[:,0]
+I2 = IPCEt[:,1]
+J2 = IPCEt[:,2]
+
+sub2.plot(W1, I1, &#39;-&#39;, label=&#39;control&#39;,linewidth=2,color=&#39;C9&#39;)
+sub2.set_xlabel(&#39;Wavelength (nm)&#39;)
+sub2.set_ylabel(&#39;IPCE&#39;, color=&#39;b&#39;)
+sub2.set_ylim(0, 1.1)  # 设置左边Y轴范围
+sub2.set_xlim(300, 900) 
+sub2.tick_params(axis=&#39;y&#39;, labelcolor=&#39;b&#39;)
+
+ax2 = sub2.twinx()
+ax2.plot(W1, J1,&#39;-.&#39;,label=&#39;Y2&#39;,linewidth=2,color=&#39;C9&#39;)
+ax2.set_ylim(0, 27)  # 设置右边Y轴范围
+ax2.tick_params(axis=&#39;y&#39;, labelcolor=&#39;r&#39;)
+
+sub2.plot(W2, I2, &#39;-&#39;, label=&#39;target&#39;,linewidth=2,color=&#39;C6&#39;)
+sub2.set_xlabel(&#39;Wavelength (nm)&#39;)
+sub2.set_ylabel(&#39;IPCE&#39;, color=&#39;b&#39;)
+sub2.set_ylim(0, 1.1)  # 设置左边Y轴范围
+sub2.set_xlim(300, 900) 
+sub2.tick_params(axis=&#39;y&#39;, labelcolor=&#39;b&#39;)
+
+ax3 = sub2.twinx()
+ax3.plot(W2, J2, &#39;-.&#39;, label=&#39;Y2&#39;,linewidth=2,color=&#39;C6&#39;)
+ax3.set_ylabel(r&#39;Integrated $J$$\mathrm{_{SC}}$ (mA/cm$^{2}$)&#39;, color=&#39;r&#39;)
+ax3.set_ylim(0, 27)  # 设置右边Y轴范围
+ax3.tick_params(axis=&#39;y&#39;, labelcolor=&#39;r&#39;)
+
+sub2.legend(frameon=False,loc=&#39;center left&#39;)
+fig.tight_layout()
+
+plt.show()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Result:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Figure_21.svg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;长期稳定性绘制&#34;&gt;长期稳定性绘制&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.gridspec import GridSpec #把子图网格化
+
+fig=plt.figure(figsize=(4,3.5),dpi=300,facecolor=&amp;quot;w&amp;quot;,constrained_layout=True) 
+gs=GridSpec(1,1)
+sub3=plt.subplot(gs[0,0]) #组图的个数和位置
+
+N2=np.loadtxt(&#39;./N2.txt&#39;)
+T1 = N2[:,0]
+P1 = N2[:,1]
+P2 = N2[:,2]
+P3 = N2[:,3]
+
+sub3.set_xlim([-100,2100])
+sub3.set_ylim([0,110])
+
+sub3.plot(T1,P1,label=r&#39;../PVK/..&#39;, linestyle=&#39;-&#39;,linewidth=2,color=&#39;c&#39;,marker=&#39;o&#39;,markersize=4,alpha=0.5)
+sub3.plot(T1,P2,label=r&#39;../PEAI/PVK/..&#39;, linestyle=&#39;-&#39;,linewidth=2,color=&#39;r&#39;,marker=&#39;^&#39;,markersize=4,alpha=0.5)
+sub3.plot(T1,P3,label=r&#39;../PEAI/PVK/PEAI/..&#39;, linestyle=&#39;-&#39;,linewidth=2,color=&#39;g&#39;,marker=&#39;p&#39;,markersize=4,alpha=0.5)
+
+sub3.set_xlabel(r&#39;Time (h)&#39;)
+sub3.set_ylabel(r&#39;Norm. PCE (%)&#39;)
+
+sub3.legend(frameon=False)
+sub3.text(1900,10,r&#39;N$_{2}$&#39;)
+
+sub3.legend(frameon=False)
+fig.tight_layout()
+plt.show()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Result:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Figure_15.svg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;uv算的带隙数据以及切线的绘制&#34;&gt;UV算的带隙数据以及切线的绘制&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from pickle import FALSE
+import numpy as np
+import matplotlib.pyplot as plt
+
+# 读取文件数据
+data = np.loadtxt(&amp;quot;bandgap.txt&amp;quot;)
+
+# 分割数据为X和Y列
+x_data = data[:, 0]
+y_data = data[:, 1]
+y_data1 = data[:, 2]
+y_data2 = data[:, 3]
+# 定义需要绘制切线的X轴范围
+x_min = 1.52334
+x_max = 1.8
+#-------------------------------------------control
+# 找到最接近1.54613的数据点
+x_point = 1.55613
+index = np.argmin(np.abs(x_data - x_point))
+x_point = x_data[index]
+y_point = y_data[index]
+
+# 计算切线斜率，这里选择使用前后两个点进行线性拟合
+x_before = x_data[index - 1]
+y_before = y_data[index - 1]
+x_after = x_data[index + 1]
+y_after = y_data[index + 1]
+
+slope = (y_after - y_before) / (x_after - x_before)
+
+# 计算截距
+intercept = y_point - slope * x_point
+
+# 生成切线上的点
+x_line = np.linspace(1.52, 1.57, 2)  # 指定横坐标范围
+y_line = slope * x_line + intercept
+
+#-------------------------------------------bottom
+x_point = 1.5657
+index = np.argmin(np.abs(x_data - x_point))
+x_point1 = x_data[index]
+y_point1 = y_data1[index]
+
+# 计算切线斜率，这里选择使用前后两个点进行线性拟合
+x_before1 = x_data[index - 1]
+y_before1 = y_data2[index - 1]
+x_after1 = x_data[index + 1]
+y_after1 = y_data2[index + 1]
+
+slope1 = (y_after1 - y_before1) / (x_after1 - x_before1)
+
+# 计算截距
+intercept1 = y_point1 - slope1 * x_point1
+
+# 生成切线上的点
+x_line1 = np.linspace(1.52, 1.57, 2)  # 指定横坐标范围
+y_line1 = slope1 * x_line1 + intercept1
+
+#-------------------------------------both
+x_point = 1.5406
+index = np.argmin(np.abs(x_data - x_point))
+x_point2 = x_data[index]
+y_point2 = y_data2[index]
+
+# 计算切线斜率，这里选择使用前后两个点进行线性拟合
+x_before2 = x_data[index - 1]
+y_before2 = y_data2[index - 1]
+x_after2 = x_data[index + 1]
+y_after2 = y_data2[index + 1]
+
+slope2 = (y_after2 - y_before2) / (x_after2 - x_before2)
+
+# 计算截距
+intercept2 = y_point2 - slope2 * x_point2
+
+# 生成切线上的点
+x_line2 = np.linspace(1.52, 1.57, 2)  # 指定横坐标范围
+y_line2 = slope2 * x_line2 + intercept2
+
+#---------------------------绘图
+fig=plt.figure(figsize=(4,3.5),dpi=300,facecolor=&amp;quot;w&amp;quot;,constrained_layout=True)
+# 绘制原始数据
+plt.scatter(x_data, y_data, label=&#39;control&#39;, color=&#39;b&#39;,alpha=0.5)
+plt.scatter(x_data, y_data1, label=&#39;bottom&#39;, color=&#39;g&#39;,alpha=0.5)
+plt.scatter(x_data, y_data2, label=&#39;both&#39;, color=&#39;r&#39;,alpha=0.5)
+
+# 绘制切线
+plt.plot(x_line, y_line, label=&#39;Tangent Line-control&#39;, color=&#39;b&#39;)
+plt.plot(x_line, y_line1, label=&#39;Tangent Line-bottom&#39;, color=&#39;g&#39;)
+plt.plot(x_line, y_line2, label=&#39;Tangent Line-both&#39;, color=&#39;r&#39;)
+
+plt.xlabel(&#39;Energy (eV)&#39;)
+plt.ylabel(r&#39;Ln($\alpha$)&#39;)
+plt.legend(frameon=False)
+plt.grid(True)
+
+# 指定X轴显示范围
+plt.xlim(x_min, x_max)
+
+plt.tight_layout()
+
+plt.show()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Result:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Figure_16.svg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;xrd-数据&#34;&gt;XRD 数据&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.gridspec import GridSpec #把子图网格化
+
+
+fig=plt.figure(figsize=(4,3.5),dpi=300,facecolor=&amp;quot;w&amp;quot;,constrained_layout=True) 
+gs=GridSpec(1,1)
+X1=plt.subplot(gs[0,0]) 
+
+Xc=np.loadtxt(&#39;./XRDcontrol.txt&#39;)
+b1 = Xc[:,0]
+i1 = Xc[:,1]
+
+X1.set_xlim([10,40])
+X1.locator_params(&#39;x&#39;,nbins=8) 
+
+X1.plot(b1,i1,label=r&#39;ITO/NiO$_X$/PVK&#39;, linestyle=&#39;-&#39;,linewidth=2,color=&#39;C2&#39;,alpha=0.5)
+
+X1.set_xlabel(r&#39;2$\theta$ (°)&#39;)
+X1.set_ylabel(r&#39;Intensity (a.u.)&#39;)
+
+X1.legend(frameon=False)
+
+fig.tight_layout()
+plt.show()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Result:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Figure_17.svg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;uv-数据&#34;&gt;UV 数据&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import numpy as np
+import matplotlib.pyplot as plt
+
+# 读取文件数据
+data = np.loadtxt(&amp;quot;UV.txt&amp;quot;)
+x_min = 500
+x_max = 750
+# 分割数据
+x1_data = data[:, 0]  # 第一列作为X轴数值
+x2_data = data[:, 2]  # 第三列作为X轴数值
+x3_data = data[:, 4]  # 第五列作为X轴数值
+
+y1_data = data[:, 1]  # 第二列作为Y轴数值
+y2_data = data[:, 3]  # 第四列作为Y轴数值
+y3_data = data[:, 5]  # 第六列作为Y轴数值
+
+fig=plt.figure(figsize=(4,3.5),dpi=300,facecolor=&amp;quot;w&amp;quot;,constrained_layout=True)
+
+# 绘制折线图
+plt.plot(x1_data, y1_data, label=&#39;../PVK/..&#39;, color=&#39;c&#39;,alpha=0.5)
+plt.plot(x2_data, y2_data, label=&#39;../PEAI/PVK/..&#39;, color=&#39;r&#39;,alpha=0.5)
+plt.plot(x3_data, y3_data, label=&#39;../PEAI/PVK/PEAI/..&#39;, color=&#39;g&#39;,alpha=0.5)
+
+plt.xlabel(r&#39;Wavelength (nm)&#39;)
+plt.ylabel(r&#39;Absorbance (a.u.)&#39;)
+
+plt.xlim(x_min, x_max)
+plt.ylim([0.15,1.6])
+
+plt.legend(frameon=False)
+
+plt.tight_layout()
+plt.show()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Result:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Figure_18.svg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;tpc-数据&#34;&gt;TPC 数据&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.gridspec import GridSpec #把子图网格化
+
+fig=plt.figure(figsize=(4,3.5),dpi=300,facecolor=&amp;quot;w&amp;quot;,constrained_layout=True) 
+gs=GridSpec(1,1)
+sub1=plt.subplot(gs[0,0]) 
+
+tpc = np.loadtxt(&amp;quot;tpc.txt&amp;quot;)
+x_data = tpc[:, [0, 2, 4]]  # 第一列，第三列，第五列
+y_data = tpc[:, [1, 3, 5]]  # 第二列，第四列，第六列
+
+colors = [&#39;c&#39;, &#39;r&#39;, &#39;g&#39;]
+labels = [&#39;../PVK/..&#39;, &#39;../PEAI/PVK/..&#39;, &#39;../PEAI/PVK/PEAI/..&#39;]
+
+for k in range(x_data.shape[1]):
+    x1 = x_data[:, k]
+    y1 = y_data[:, k]
+
+    # 绘制点图
+    sub1.plot(x1, y1, label=labels[k], color=colors[k],alpha=0.5)
+
+sub1.set_xlim(0, 5)
+
+# 显示图例和设置标题
+sub1.set_xlabel(&#39;Time ($\mu$s)&#39;)
+sub1.set_ylabel(&#39;Norm. photocurrent&#39;, )
+sub1.legend(frameon=False)
+
+plt.tight_layout()
+plt.show()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Result:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Figure_19.svg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;tpv-数据&#34;&gt;TPV 数据&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.gridspec import GridSpec #把子图网格化
+
+fig=plt.figure(figsize=(4,3.5),dpi=300,facecolor=&amp;quot;w&amp;quot;,constrained_layout=True) 
+gs=GridSpec(1,1)
+sub2=plt.subplot(gs[0,0]) 
+
+tpv = np.loadtxt(&amp;quot;tpv.txt&amp;quot;)
+
+x_data1 = tpv[:, [0, 2, 4]]  # 第一列，第三列，第五列
+y_data1 = tpv[:, [1, 3, 5]]  # 第二列，第四列，第六列
+
+colors2 = [&#39;c&#39;, &#39;r&#39;, &#39;g&#39;]
+labels2 = [&#39;../PVK/..&#39;, &#39;../PEAI/PVK/..&#39;, &#39;../PEAI/PVK/PEAI/..&#39;]
+
+for i in range(x_data1.shape[1]):
+    x2 = x_data1[:, i]
+    y2 = y_data1[:, i]
+
+    # 绘制点图
+    sub2.plot(x2, y2, label=labels2[i], color=colors2[i],alpha=0.5)
+
+sub2.set_xlim(0, 500)
+
+# 显示图例和设置标题
+sub2.set_xlabel(&#39;Time ($\mu$s)&#39;)
+sub2.set_ylabel(&#39;Norm. photovoltage&#39;, )
+sub2.legend(frameon=False)
+
+plt.tight_layout()
+plt.show()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Result:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Figure_20.svg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;trpl-mapping数据&#34;&gt;TRPL mapping数据&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.gridspec import GridSpec #把子图网格化
+
+fig=plt.figure(figsize=(7.2,3.5),dpi=200) 
+gs=GridSpec(1,2)
+
+tc1=plt.subplot(gs[0,0]) 
+tt1=plt.subplot(gs[0,1]) 
+
+#--------REOL1
+data = np.loadtxt(&#39;./TRPL_C_CT.txt&#39;)
+
+# make data with uneven sampling in x
+y = data[:,0]
+X, Y = np.meshgrid(np.linspace(700,900, 41),y)
+Z1 = data[:, 1:]
+
+contour1 = tc1.contourf(X,Y,Z1/Z1.max(),  extend=&#39;both&#39;,cmap=&amp;quot;rainbow&amp;quot;,levels=np.arange(0,1,0.005))  #locator=ticker.LogLocator(), 图例以log形式显示
+
+contour1.collections[0].set_edgecolor(&amp;quot;face&amp;quot;) #隐藏等高线
+
+cbartt1 = plt.colorbar(contour1, ticks=np.arange(0, 1,0.1)) #ax=tc, 
+cbartt1.mappable.set_clim(0,1)
+
+
+tc1.set(xlim=(750,850), ylim=(0,30))
+
+tc1.set_xlabel(r&#39;Wavelength (nm)&#39;)
+tc1.set_ylabel(r&#39;Time (ns)&#39;)
+#-----------tr
+data1 = np.loadtxt(&#39;./TRPL_T_CT.txt&#39;)
+y = data1[:,0]
+X, Y = np.meshgrid(np.linspace(700,900, 41),y)
+Z = data1[:, 1:]
+
+contour = tt1.contourf(X,Y,Z/Z.max(),  extend=&#39;both&#39;,cmap=&amp;quot;rainbow&amp;quot;,levels=np.arange(0,1,0.005))  #locator=ticker.LogLocator(), 图例以log形式显示
+
+contour.collections[0].set_edgecolor(&amp;quot;face&amp;quot;) #隐藏等高线
+
+cbartt = plt.colorbar(contour, ticks=np.arange(0, 1, 0.1))
+cbartt.mappable.set_clim(0, 1)  #设定颜色的范围 即0-80意思为颜色条..
+ 
+tt1.set(xlim=(750,850), ylim=(0,30))
+
+tt1.set_xlabel(r&#39;Wavelength (nm)&#39;)
+tt1.set_ylabel(r&#39;Time (ns)&#39;)
+
+fig.tight_layout()
+plt.show()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Result:
+&lt;img src=&#34;Figure_22.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;注意，此图最好保存为png而不是svg，避免图像失真。&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;sclc数据&#34;&gt;SCLC数据&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.gridspec import GridSpec #把子图网格化
+
+fig=plt.figure(figsize=(4,3.5),dpi=300,facecolor=&amp;quot;w&amp;quot;,constrained_layout=True) 
+gs=GridSpec(1,1)
+
+SCLC1=plt.subplot(gs[0,0]) 
+
+#--------SCLC1
+S1=np.loadtxt(&#39;./SCLC1.txt&#39;)
+xvlrc = S1[::3,0]
+yvlrc = S1[::3,1]
+
+
+SCLC1.plot(xvlrc,yvlrc, &#39;o-&#39;,ms=5,label=r&#39;control&#39;, color=&#39;C9&#39;)
+
+SCLC1.set_xlabel(r&#39;Voltage (V)&#39;)
+SCLC1.set_ylabel(r&#39;Current (A)&#39;)
+SCLC1.set_xscale(&#39;log&#39;) #x轴以ln形式显示
+SCLC1.set_yscale(&#39;log&#39;)
+SCLC1.set_xticks([0.1, 0.5, 1.0]) #显示特定的数据
+
+SCLC1.get_xaxis().set_major_formatter(plt.ScalarFormatter())
+
+SCLC1.text(0.104,1.864E-6, r&amp;quot;$V$$_{TFL}$=0.66 eV&amp;quot;) 
+SCLC1.text(0.104,8.94E-7, r&amp;quot;$n_{t}=3.88×10^{15}$ cm$^{-3}$&amp;quot;) 
+
+SCLC1.legend(frameon=False)
+plt.tight_layout() #保证出来的图是完整的，防止有时候X或者Y轴显示不全
+
+plt.show()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Result:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Figure_23.svg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ms-图绘制&#34;&gt;MS 图绘制&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.gridspec import GridSpec #把子图网格化
+
+fig=plt.figure(figsize=(4,3.5),dpi=300,facecolor=&amp;quot;w&amp;quot;,constrained_layout=True) 
+gs=GridSpec(1,1)
+msc=plt.subplot(gs[0,0]) 
+
+MSC=np.loadtxt(&#39;./MSC.txt&#39;)
+MST=np.loadtxt(&#39;./MST.txt&#39;)
+xms1 = MSC[:,0]
+yms1 = MSC[:,1]
+xms2 = MST[:,0]
+yms2 = MST[:,1]
+
+msc.plot(xms1,yms1, &#39;o-&#39;,ms=4,label=r&#39;control&#39;,color=&#39;C9&#39;,linewidth=1)
+msc.plot(xms2,yms2, &#39;o-&#39;,ms=4,label=r&#39;target&#39;, color=&#39;C6&#39;,linewidth=1)
+
+msc.set_xlabel(r&#39;Voltage (V)&#39;)
+msc.set_ylabel(r&#39;Mott-Schottky ($1/F^{2}$)&#39;)
+msc.set_xlim([0,1.2])
+msc.set_ylim([0,0.7e16])
+
+msc.text(0.408,3e+15, r&amp;quot;0.96 V&amp;quot;, color=&#39;C9&#39;) 
+msc.text(0.825,5.48e+15, r&amp;quot;1.06 V&amp;quot;, color=&#39;C6&#39;) 
+
+msc.legend(frameon=False)
+fig.tight_layout()
+plt.show()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Result:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Figure_6.svg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;pl-数据&#34;&gt;PL 数据&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import numpy as np
+import matplotlib.pyplot as plt
+
+# 读取文件数据
+data = np.loadtxt(&amp;quot;PLcharge.txt&amp;quot;)
+
+# 分割数据
+x1_data = data[:, 0]  # 第一列作为X轴数值
+x2_data = data[:, 2]  # 第三列作为X轴数值
+x3_data = data[:, 4]  # 第五列作为X轴数值
+x4_data = data[:, 6]  # 第七列作为X轴数值
+
+y1_data = data[:, 1]  # 第二列作为Y轴数值
+y2_data = data[:, 3]  # 第四列作为Y轴数值
+y3_data = data[:, 5]  # 第六列作为Y轴数值
+y4_data = data[:, 7]  # 第八列作为Y轴数值
+
+fig, ax = plt.subplots(figsize=(4,3.5),dpi=300,facecolor=&amp;quot;w&amp;quot;,constrained_layout=True) #constrained_layout=True:让图片紧凑
+#4cm为10.16cm
+
+# 设置Y轴使用科学计数法
+ax.ticklabel_format(style=&#39;sci&#39;, axis=&#39;y&#39;, scilimits=(0, 0))
+
+# 设置X轴显示范围
+ax.set_xlim(600, 900)  # 修改此处为ax.set_xlim
+
+# 绘制折线图
+ax.plot(x1_data, y1_data, label=&#39;glass/PVK&#39;, color=&#39;m&#39;, alpha=0.5)
+ax.plot(x2_data, y2_data, label=&#39;ITO/NiOx/PVK&#39;, color=&#39;c&#39;, alpha=0.5)
+ax.plot(x3_data, y3_data, label=&#39;ITO/NiOx/PEAI/PVK/C60&#39;, color=&#39;r&#39;, alpha=0.5)
+ax.plot(x4_data, y4_data, label=&#39;ITO/NiOx/PEAI/PVK/PEAI/C60&#39;, color=&#39;g&#39;, alpha=0.5)
+
+# 设置坐标的名称和字体
+plt.xlabel(&#39;Wavelength (nm)&#39;) #, fontsize=12
+plt.ylabel(&#39;Intensity (a.u.)&#39;)
+
+# 设置坐标轴的大小
+#ax.tick_params(axis=&#39;x&#39;, labelsize=12)
+#ax.tick_params(axis=&#39;y&#39;, labelsize=12)
+
+# 绘制图例不带窗户阴影，并且设置字体
+ax.legend(frameon=False, fontsize=8)
+
+# 绘制图
+#plt.tight_layout()  让图片紧凑的另一个方式
+
+#plt.savefig(&amp;quot;Figure_1.png&amp;quot;, transparent=True) 保存成透明图片，用于海报制作可以考虑
+
+plt.show()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Result:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Figure_1.svg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h3&gt;
+&lt;h3 id=&#34;for-your-reference-any-reprint-must-indicate-the-source-which-is-this-website--&#34;&gt;For your reference, any reprint must indicate the source, which is this website. ©️ 🔏&lt;/h3&gt;
+&lt;h3 id=&#34;供您参考任何转载都需表明出处即本网址--&#34;&gt;供您参考，任何转载都需表明出处，即本网址。 ©️ 🔏&lt;/h3&gt;
 </description>
     </item>
     

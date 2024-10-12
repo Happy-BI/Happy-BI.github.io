@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>科研绘图 | Huan BI</title>
+    <link>/tag/%E7%A7%91%E7%A0%94%E7%BB%98%E5%9B%BE/</link>
+      <atom:link href="/tag/%E7%A7%91%E7%A0%94%E7%BB%98%E5%9B%BE/index.xml" rel="self" type="application/rss+xml" />
+    <description>科研绘图</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>@ 2024 Huan BI. Built with [Hugo](https://gohugo.io/) and the [Wowchemy](https://wowchemy.com/) theme. Any copying or downloading of any images on this page for any promotional purpose must first be approved by Bi Huan, otherwise it will be regarded as an infringement. 任何拷贝或下载任何本网页的图片用于任何宣传的行为，必须先得到毕欢的许可，否则将会被视为是侵权行为。</copyright><lastBuildDate>Fri, 12 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>科研绘图</title>
+      <link>/tag/%E7%A7%91%E7%A0%94%E7%BB%98%E5%9B%BE/</link>
+    </image>
+    
+    <item>
+      <title>Origin中误差图的画法-从数据到图片的处理</title>
+      <link>/post/origin/</link>
+      <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>/post/origin/</guid>
+      <description>&lt;p&gt;首先需要明确的是，我们在数据中所使用的误差线数值应该如何获得。&lt;/p&gt;
+&lt;p&gt;目前在数据处理中，国际上尚未统一采用哪一种误差，但是通过谷歌学术初步检索发现，2013年的SCI论文中明确给出误差棒的类型的，其中用平均数±标准误差（S.E.），仅有90条，而用平均数±标准方差（S.D.）约有331条，而对于爱斯维尔系统里的文章，我从我之前看到的论文中统计的结果是有标注误差棒且明确计算方法的，几乎都是用以上两种形式，而每4篇中就有三篇采用的是平均数±标准方差，因此我们在数据处理中的误差线都用平均数±标准方差来获得。&lt;/p&gt;
+&lt;h2 id=&#34;origin如何取平均值和标准差&#34;&gt;Origin如何取平均值和标准差&lt;/h2&gt;
+&lt;p&gt;1、将数据导入。（说明，此处为在条件1下，对同一样品测试4次后得到的数据）&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./1.jpg&#34; alt=&#34;jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;2、选取需要进行求平均值以及标准差的重复实验数据，选中之后右击Statistics on Row，选择Open Dialog&amp;hellip;，弹出如图的对话框，直接点击OK，就可以在表格中直接得到平均值和标准差数据。（切记，选择时不能选择X轴数据）&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./2.jpg&#34; alt=&#34;jpg&#34;&gt;
+&lt;img src=&#34;./3.jpg&#34; alt=&#34;jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;3.误差棒画法参数设置：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./4.jpg&#34; alt=&#34;jpg&#34;&gt;
+&lt;img src=&#34;./5.jpg&#34; alt=&#34;jpg&#34;&gt;
+&lt;img src=&#34;./6.jpg&#34; alt=&#34;jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;即可得到下图：
+&lt;img src=&#34;./7.jpg&#34; alt=&#34;jpg&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;数据&#34;&gt;数据&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;序号&lt;/th&gt;
+&lt;th&gt;数据1&lt;/th&gt;
+&lt;th&gt;数据2&lt;/th&gt;
+&lt;th&gt;数据3&lt;/th&gt;
+&lt;th&gt;数据4&lt;/th&gt;
+&lt;th&gt;数据5&lt;/th&gt;
+&lt;th&gt;数据6&lt;/th&gt;
+&lt;th&gt;数据7&lt;/th&gt;
+&lt;th&gt;数据8&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;2.1&lt;/td&gt;
+&lt;td&gt;2.2&lt;/td&gt;
+&lt;td&gt;1.9&lt;/td&gt;
+&lt;td&gt;1.84&lt;/td&gt;
+&lt;td&gt;0.4827&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;4.1&lt;/td&gt;
+&lt;td&gt;4.05&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;4.2&lt;/td&gt;
+&lt;td&gt;3.8&lt;/td&gt;
+&lt;td&gt;3.83&lt;/td&gt;
+&lt;td&gt;0.48683&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;7.2&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;7.3&lt;/td&gt;
+&lt;td&gt;6.99&lt;/td&gt;
+&lt;td&gt;6.898&lt;/td&gt;
+&lt;td&gt;0.51915&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;13.5&lt;/td&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;13.65&lt;/td&gt;
+&lt;td&gt;13.57&lt;/td&gt;
+&lt;td&gt;13.8&lt;/td&gt;
+&lt;td&gt;13.304&lt;/td&gt;
+&lt;td&gt;0.73745&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;17.3&lt;/td&gt;
+&lt;td&gt;17.2&lt;/td&gt;
+&lt;td&gt;14&lt;/td&gt;
+&lt;td&gt;16.89&lt;/td&gt;
+&lt;td&gt;17&lt;/td&gt;
+&lt;td&gt;16.478&lt;/td&gt;
+&lt;td&gt;1.3946&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;20.1&lt;/td&gt;
+&lt;td&gt;20.15&lt;/td&gt;
+&lt;td&gt;19.89&lt;/td&gt;
+&lt;td&gt;18&lt;/td&gt;
+&lt;td&gt;20&lt;/td&gt;
+&lt;td&gt;19.628&lt;/td&gt;
+&lt;td&gt;0.91552&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;24.9&lt;/td&gt;
+&lt;td&gt;25.3&lt;/td&gt;
+&lt;td&gt;28&lt;/td&gt;
+&lt;td&gt;25&lt;/td&gt;
+&lt;td&gt;25.1&lt;/td&gt;
+&lt;td&gt;25.66&lt;/td&gt;
+&lt;td&gt;1.31643&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;30.1&lt;/td&gt;
+&lt;td&gt;31&lt;/td&gt;
+&lt;td&gt;30.9&lt;/td&gt;
+&lt;td&gt;30.12&lt;/td&gt;
+&lt;td&gt;30.14&lt;/td&gt;
+&lt;td&gt;30.452&lt;/td&gt;
+&lt;td&gt;0.4562&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;35&lt;/td&gt;
+&lt;td&gt;34.9&lt;/td&gt;
+&lt;td&gt;38&lt;/td&gt;
+&lt;td&gt;35.3&lt;/td&gt;
+&lt;td&gt;35.2&lt;/td&gt;
+&lt;td&gt;35.68&lt;/td&gt;
+&lt;td&gt;1.30652&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;td&gt;40.2&lt;/td&gt;
+&lt;td&gt;35&lt;/td&gt;
+&lt;td&gt;39.8&lt;/td&gt;
+&lt;td&gt;40.14&lt;/td&gt;
+&lt;td&gt;40&lt;/td&gt;
+&lt;td&gt;39.028&lt;/td&gt;
+&lt;td&gt;2.25697&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h3&gt;
+&lt;h3 id=&#34;for-your-reference-any-reprint-must-indicate-the-source-which-is-this-website--&#34;&gt;For your reference, any reprint must indicate the source, which is this website. ©️ 🔏&lt;/h3&gt;
+&lt;h3 id=&#34;供您参考任何转载都需表明出处即本网址--&#34;&gt;供您参考，任何转载都需表明出处，即本网址。 ©️ 🔏&lt;/h3&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
