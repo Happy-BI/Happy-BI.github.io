@@ -5,7 +5,7 @@
     <link>/author/s.-segawa/</link>
       <atom:link href="/author/s.-segawa/index.xml" rel="self" type="application/rss+xml" />
     <description>S. Segawa</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>@ 2024 Huan BI. Built with [Hugo](https://gohugo.io/) and the [Wowchemy](https://wowchemy.com/) theme. Any copying or downloading of any images on this page for any promotional purpose must first be approved by Bi Huan, otherwise it will be regarded as an infringement. 任何拷贝或下载任何本网页的图片用于任何宣传的行为，必须先得到毕欢的许可，否则将会被视为是侵权行为。</copyright><lastBuildDate>Mon, 23 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>@ 2024 Huan BI. Built with [Hugo](https://gohugo.io/) and the [Wowchemy](https://wowchemy.com/) theme. Any copying or downloading of any images or files (Except for published paper) on this page for any promotional purpose must first be approved by Bi Huan, otherwise it will be regarded as an infringement. 任何拷贝或下载任何本网页的图片或文件（发表论文除外）用于任何宣传的行为，必须先得到毕欢的许可，否则将会被视为是侵权行为。</copyright><lastBuildDate>Mon, 23 Sep 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>S. Segawa</title>
@@ -33,19 +33,7 @@
       <link>/publication/c-84rd-jsap/</link>
       <pubDate>Sat, 23 Sep 2023 00:00:00 +0000</pubDate>
       <guid>/publication/c-84rd-jsap/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -53,19 +41,7 @@
       <link>/publication/c-em-nano2023/</link>
       <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
       <guid>/publication/c-em-nano2023/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
   </channel>

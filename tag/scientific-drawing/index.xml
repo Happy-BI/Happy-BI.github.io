@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scientific Drawing | Huan BI</title>
+    <link>/tag/scientific-drawing/</link>
+      <atom:link href="/tag/scientific-drawing/index.xml" rel="self" type="application/rss+xml" />
+    <description>Scientific Drawing</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>@ 2024 Huan BI. Built with [Hugo](https://gohugo.io/) and the [Wowchemy](https://wowchemy.com/) theme. Any copying or downloading of any images or files (Except for published paper) on this page for any promotional purpose must first be approved by Bi Huan, otherwise it will be regarded as an infringement. 任何拷贝或下载任何本网页的图片或文件（发表论文除外）用于任何宣传的行为，必须先得到毕欢的许可，否则将会被视为是侵权行为。</copyright><lastBuildDate>Tue, 16 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Scientific Drawing</title>
+      <link>/tag/scientific-drawing/</link>
+    </image>
+    
+    <item>
+      <title>论文作图要点及建议</title>
+      <link>/post/%E7%A7%91%E7%A0%94%E8%AE%BA%E6%96%87%E4%BD%9C%E5%9B%BE%E5%8E%9F%E5%88%99/</link>
+      <pubDate>Tue, 16 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>/post/%E7%A7%91%E7%A0%94%E8%AE%BA%E6%96%87%E4%BD%9C%E5%9B%BE%E5%8E%9F%E5%88%99/</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言：&lt;/h2&gt;
+&lt;p&gt;作图的目标在于将数据清晰并准确地传达给读者。 &lt;strong&gt;“清晰”&lt;/strong&gt; 和 &lt;strong&gt;“准确”&lt;/strong&gt; 是必须要达到的。以下以两幅图为例来说明：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./1.jpg&#34; alt=&#34;jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;图A和图B在字体和线条上有明显的区别。得益于字体和线条的搭配，图B要更为清晰，能更准确地传达信息。
+作图的好坏也取决于 &lt;strong&gt;&lt;span style=&#34;color:red;&#34;&gt;“字体”&lt;/span&gt;&lt;/strong&gt; 和 &lt;strong&gt;&lt;span style=&#34;color:red;&#34;&gt;“线条”&lt;/span&gt;&lt;/strong&gt; 两大要素。
+。在文章的出版稿中，图片有些时候只会占据很少的版面，例如，两列中的一列。
+因此，如果字体太小，线条过细，那么读者将无法辨析图表中的数据。字体放大，线条加粗则可以有效地规避这个问题。
+以下推荐的字体大小和线条粗细之搭配仅供诸位参考学习。&lt;/p&gt;
+&lt;h2 id=&#34;建议&#34;&gt;建议：&lt;/h2&gt;
+&lt;p&gt;作图的准则是 &lt;strong&gt;&lt;span style=&#34;color:red;&#34;&gt;“字不嫌大，线不怕粗”&lt;/span&gt;&lt;/strong&gt; 。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./2.jpg&#34; alt=&#34;jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;图的四条边框的粗细建议在 &lt;strong&gt;“6”&lt;/strong&gt; 左右。其它参数设置如图所示。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./3.jpg&#34; alt=&#34;jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;横纵坐标的字体建议是 &lt;strong&gt;“Times New Roman”&lt;/strong&gt; ，字体大小是 &lt;strong&gt;“37”，加粗。&lt;/strong&gt; 其他参数设置如图所示。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./4.jpg&#34; alt=&#34;jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;坐标轴字体建议 &lt;strong&gt;“Times New Roman”&lt;/strong&gt; ，字体大小是 &lt;strong&gt;“57”，加粗。&lt;/strong&gt; 其他参数设置如图所示。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./5.jpg&#34; alt=&#34;jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;数据曲线粗细建议为 &lt;strong&gt;“3”&lt;/strong&gt; ，符号大小为 &lt;strong&gt;“13”&lt;/strong&gt; 。数据名称字体为 &lt;strong&gt;“Times New Roman”，字体大小为“23”，加粗。&lt;/strong&gt; 其他参数设置如图所示。&lt;/p&gt;
+&lt;h3 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h3&gt;
+&lt;h3 id=&#34;for-your-reference-any-reprint-must-indicate-the-source-which-is-this-website--&#34;&gt;For your reference, any reprint must indicate the source, which is this website. ©️ 🔏&lt;/h3&gt;
+&lt;h3 id=&#34;供您参考任何转载都需表明出处即本网址--&#34;&gt;供您参考，任何转载都需表明出处，即本网址。 ©️ 🔏&lt;/h3&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -5,7 +5,7 @@
     <link>/author/g.-kapil/</link>
       <atom:link href="/author/g.-kapil/index.xml" rel="self" type="application/rss+xml" />
     <description>G. Kapil</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>@ 2024 Huan BI. Built with [Hugo](https://gohugo.io/) and the [Wowchemy](https://wowchemy.com/) theme. Any copying or downloading of any images on this page for any promotional purpose must first be approved by Bi Huan, otherwise it will be regarded as an infringement. 任何拷贝或下载任何本网页的图片用于任何宣传的行为，必须先得到毕欢的许可，否则将会被视为是侵权行为。</copyright><lastBuildDate>Mon, 29 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>@ 2024 Huan BI. Built with [Hugo](https://gohugo.io/) and the [Wowchemy](https://wowchemy.com/) theme. Any copying or downloading of any images or files (Except for published paper) on this page for any promotional purpose must first be approved by Bi Huan, otherwise it will be regarded as an infringement. 任何拷贝或下载任何本网页的图片或文件（发表论文除外）用于任何宣传的行为，必须先得到毕欢的许可，否则将会被视为是侵权行为。</copyright><lastBuildDate>Mon, 29 Jul 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>G. Kapil</title>
@@ -19,7 +19,12 @@
       <guid>/publication/j-acs-energy-letters-2/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
+    Click the &lt;em&gt;&lt;strong&gt;Cite&lt;/strong&gt;&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;&lt;strong&gt;PDF&lt;/strong&gt;&lt;/em&gt;, &lt;em&gt;&lt;strong&gt;Supporting Information&lt;/strong&gt;&lt;/em&gt;, and &lt;em&gt;&lt;strong&gt;Video&lt;/strong&gt;&lt;/em&gt; button above to easily get the original paper and its supporting information.
   &lt;/div&gt;
 &lt;/div&gt;
 </description>
@@ -32,7 +37,12 @@
       <guid>/publication/j-ecoenergy-1/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
+    Click the &lt;em&gt;&lt;strong&gt;Cite&lt;/strong&gt;&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;&lt;strong&gt;PDF&lt;/strong&gt;&lt;/em&gt; and &lt;em&gt;&lt;strong&gt;Supporting Information&lt;/strong&gt;&lt;/em&gt; button above to easily get the original paper and its supporting information.
   &lt;/div&gt;
 &lt;/div&gt;
 </description>
@@ -45,7 +55,12 @@
       <guid>/publication/j-advanced-science-1/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
+    Click the &lt;em&gt;&lt;strong&gt;Cite&lt;/strong&gt;&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;&lt;strong&gt;PDF&lt;/strong&gt;&lt;/em&gt; and &lt;em&gt;&lt;strong&gt;Supporting Information&lt;/strong&gt;&lt;/em&gt; button above to easily get the original paper and its supporting information.
   &lt;/div&gt;
 &lt;/div&gt;
 </description>
@@ -56,19 +71,7 @@
       <link>/publication/c-84rd-jsap/</link>
       <pubDate>Sat, 23 Sep 2023 00:00:00 +0000</pubDate>
       <guid>/publication/c-84rd-jsap/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -78,7 +81,12 @@
       <guid>/publication/j-acs-energy-letters-1/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
+    Click the &lt;em&gt;&lt;strong&gt;Cite&lt;/strong&gt;&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;&lt;strong&gt;PDF&lt;/strong&gt;&lt;/em&gt; and &lt;em&gt;&lt;strong&gt;Supporting Information&lt;/strong&gt;&lt;/em&gt; button above to easily get the original paper and its supporting information.
   &lt;/div&gt;
 &lt;/div&gt;
 </description>
@@ -86,12 +94,17 @@
     
     <item>
       <title>Efficiency Enhancement of Wide Bandgap Lead Perovskite Solar Cells with PTAA Surface-Passivated with Monomolecular Layer from the Viewpoint of PTAA Band Bending</title>
-      <link>/publication/j-acs-applied-materials-interfaces-1/</link>
+      <link>/publication/j-acs-applied-materials-interfaces-2/</link>
       <pubDate>Tue, 22 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/j-acs-applied-materials-interfaces-1/</guid>
+      <guid>/publication/j-acs-applied-materials-interfaces-2/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
+    Click the &lt;em&gt;&lt;strong&gt;Cite&lt;/strong&gt;&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;&lt;strong&gt;PDF&lt;/strong&gt;&lt;/em&gt; and &lt;em&gt;&lt;strong&gt;Supporting Information&lt;/strong&gt;&lt;/em&gt; button above to easily get the original paper and its supporting information.
   &lt;/div&gt;
 &lt;/div&gt;
 </description>
@@ -102,19 +115,7 @@
       <link>/publication/c-em-nano2023/</link>
       <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
       <guid>/publication/c-em-nano2023/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -124,7 +125,12 @@
       <guid>/publication/j-advanced-functional-materials-1/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
+    Click the &lt;em&gt;&lt;strong&gt;Cite&lt;/strong&gt;&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;&lt;strong&gt;PDF&lt;/strong&gt;&lt;/em&gt; and &lt;em&gt;&lt;strong&gt;Supporting Information&lt;/strong&gt;&lt;/em&gt; button above to easily get the original paper and its supporting information.
   &lt;/div&gt;
 &lt;/div&gt;
 </description>
@@ -137,7 +143,12 @@
       <guid>/publication/j-applied-physics-express-1/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
+    Click the &lt;em&gt;&lt;strong&gt;Cite&lt;/strong&gt;&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;&lt;strong&gt;PDF&lt;/strong&gt;&lt;/em&gt; and &lt;em&gt;&lt;strong&gt;Supporting Information&lt;/strong&gt;&lt;/em&gt; button above to easily get the original paper and its supporting information.
   &lt;/div&gt;
 &lt;/div&gt;
 </description>

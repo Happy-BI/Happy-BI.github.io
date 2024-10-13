@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Huan BI (毕欢) | Huan BI</title>
+    <link>/author/huan-bi-%E6%AF%95%E6%AC%A2/</link>
+      <atom:link href="/author/huan-bi-%E6%AF%95%E6%AC%A2/index.xml" rel="self" type="application/rss+xml" />
+    <description>Huan BI (毕欢)</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>@ 2024 Huan BI. Built with [Hugo](https://gohugo.io/) and the [Wowchemy](https://wowchemy.com/) theme. Any copying or downloading of any images or files (Except for published paper) on this page for any promotional purpose must first be approved by Bi Huan, otherwise it will be regarded as an infringement. 任何拷贝或下载任何本网页的图片或文件（发表论文除外）用于任何宣传的行为，必须先得到毕欢的许可，否则将会被视为是侵权行为。</copyright><lastBuildDate>Mon, 23 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Huan BI (毕欢)</title>
+      <link>/author/huan-bi-%E6%AF%95%E6%AC%A2/</link>
+    </image>
+    
+    <item>
+      <title>PEAI - Indeed an Effective Synergistic Modification Material to Improve All Perovskite Tandem Solar Cell Efficiency to Nearly 27%</title>
+      <link>/publication/c-eu-pvsec/</link>
+      <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/c-eu-pvsec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enhanced Electron Transport in Heterojunction Sn-Perovskite Solar Cells Assisted by [6,6]-Phenyl-C61-butyric Acid Methyl Ester as a Dopant</title>
+      <link>/publication/j-acs-energy-letters-2/</link>
+      <pubDate>Mon, 29 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/j-acs-energy-letters-2/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;&lt;strong&gt;Cite&lt;/strong&gt;&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;&lt;strong&gt;PDF&lt;/strong&gt;&lt;/em&gt;, &lt;em&gt;&lt;strong&gt;Supporting Information&lt;/strong&gt;&lt;/em&gt;, and &lt;em&gt;&lt;strong&gt;Video&lt;/strong&gt;&lt;/em&gt; button above to easily get the original paper and its supporting information.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Origin中误差图的画法-从数据到图片的处理</title>
+      <link>/post/origin/</link>
+      <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>/post/origin/</guid>
+      <description>&lt;p&gt;首先需要明确的是，我们在数据中所使用的误差线数值应该如何获得。&lt;/p&gt;
+&lt;p&gt;目前在数据处理中，国际上尚未统一采用哪一种误差，但是通过谷歌学术初步检索发现，2013年的SCI论文中明确给出误差棒的类型的，其中用平均数±标准误差（S.E.），仅有90条，而用平均数±标准方差（S.D.）约有331条，而对于爱斯维尔系统里的文章，我从我之前看到的论文中统计的结果是有标注误差棒且明确计算方法的，几乎都是用以上两种形式，而每4篇中就有三篇采用的是平均数±标准方差，因此我们在数据处理中的误差线都用平均数±标准方差来获得。&lt;/p&gt;
+&lt;h2 id=&#34;origin如何取平均值和标准差&#34;&gt;Origin如何取平均值和标准差&lt;/h2&gt;
+&lt;p&gt;1、将数据导入。（说明，此处为在条件1下，对同一样品测试4次后得到的数据）&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./1.jpg&#34; alt=&#34;jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;2、选取需要进行求平均值以及标准差的重复实验数据，选中之后右击Statistics on Row，选择Open Dialog&amp;hellip;，弹出如图的对话框，直接点击OK，就可以在表格中直接得到平均值和标准差数据。（切记，选择时不能选择X轴数据）&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./2.jpg&#34; alt=&#34;jpg&#34;&gt;
+&lt;img src=&#34;./3.jpg&#34; alt=&#34;jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;3.误差棒画法参数设置：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./4.jpg&#34; alt=&#34;jpg&#34;&gt;
+&lt;img src=&#34;./5.jpg&#34; alt=&#34;jpg&#34;&gt;
+&lt;img src=&#34;./6.jpg&#34; alt=&#34;jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;即可得到下图：
+&lt;img src=&#34;./7.jpg&#34; alt=&#34;jpg&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;数据&#34;&gt;数据&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;序号&lt;/th&gt;
+&lt;th&gt;数据1&lt;/th&gt;
+&lt;th&gt;数据2&lt;/th&gt;
+&lt;th&gt;数据3&lt;/th&gt;
+&lt;th&gt;数据4&lt;/th&gt;
+&lt;th&gt;数据5&lt;/th&gt;
+&lt;th&gt;数据6&lt;/th&gt;
+&lt;th&gt;数据7&lt;/th&gt;
+&lt;th&gt;数据8&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;2.1&lt;/td&gt;
+&lt;td&gt;2.2&lt;/td&gt;
+&lt;td&gt;1.9&lt;/td&gt;
+&lt;td&gt;1.84&lt;/td&gt;
+&lt;td&gt;0.4827&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;4.1&lt;/td&gt;
+&lt;td&gt;4.05&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;4.2&lt;/td&gt;
+&lt;td&gt;3.8&lt;/td&gt;
+&lt;td&gt;3.83&lt;/td&gt;
+&lt;td&gt;0.48683&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;7.2&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;7.3&lt;/td&gt;
+&lt;td&gt;6.99&lt;/td&gt;
+&lt;td&gt;6.898&lt;/td&gt;
+&lt;td&gt;0.51915&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;13.5&lt;/td&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;13.65&lt;/td&gt;
+&lt;td&gt;13.57&lt;/td&gt;
+&lt;td&gt;13.8&lt;/td&gt;
+&lt;td&gt;13.304&lt;/td&gt;
+&lt;td&gt;0.73745&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;17.3&lt;/td&gt;
+&lt;td&gt;17.2&lt;/td&gt;
+&lt;td&gt;14&lt;/td&gt;
+&lt;td&gt;16.89&lt;/td&gt;
+&lt;td&gt;17&lt;/td&gt;
+&lt;td&gt;16.478&lt;/td&gt;
+&lt;td&gt;1.3946&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;20.1&lt;/td&gt;
+&lt;td&gt;20.15&lt;/td&gt;
+&lt;td&gt;19.89&lt;/td&gt;
+&lt;td&gt;18&lt;/td&gt;
+&lt;td&gt;20&lt;/td&gt;
+&lt;td&gt;19.628&lt;/td&gt;
+&lt;td&gt;0.91552&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;24.9&lt;/td&gt;
+&lt;td&gt;25.3&lt;/td&gt;
+&lt;td&gt;28&lt;/td&gt;
+&lt;td&gt;25&lt;/td&gt;
+&lt;td&gt;25.1&lt;/td&gt;
+&lt;td&gt;25.66&lt;/td&gt;
+&lt;td&gt;1.31643&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;30.1&lt;/td&gt;
+&lt;td&gt;31&lt;/td&gt;
+&lt;td&gt;30.9&lt;/td&gt;
+&lt;td&gt;30.12&lt;/td&gt;
+&lt;td&gt;30.14&lt;/td&gt;
+&lt;td&gt;30.452&lt;/td&gt;
+&lt;td&gt;0.4562&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;35&lt;/td&gt;
+&lt;td&gt;34.9&lt;/td&gt;
+&lt;td&gt;38&lt;/td&gt;
+&lt;td&gt;35.3&lt;/td&gt;
+&lt;td&gt;35.2&lt;/td&gt;
+&lt;td&gt;35.68&lt;/td&gt;
+&lt;td&gt;1.30652&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;td&gt;40.2&lt;/td&gt;
+&lt;td&gt;35&lt;/td&gt;
+&lt;td&gt;39.8&lt;/td&gt;
+&lt;td&gt;40.14&lt;/td&gt;
+&lt;td&gt;40&lt;/td&gt;
+&lt;td&gt;39.028&lt;/td&gt;
+&lt;td&gt;2.25697&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h3&gt;
+&lt;h3 id=&#34;for-your-reference-any-reprint-must-indicate-the-source-which-is-this-website--&#34;&gt;For your reference, any reprint must indicate the source, which is this website. ©️ 🔏&lt;/h3&gt;
+&lt;h3 id=&#34;供您参考任何转载都需表明出处即本网址--&#34;&gt;供您参考，任何转载都需表明出处，即本网址。 ©️ 🔏&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Double side passivation of phenylethyl ammonium iodide for all perovskite tandem solar cell with efficiency of 26.8%</title>
+      <link>/publication/j-ecoenergy-1/</link>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/j-ecoenergy-1/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;&lt;strong&gt;Cite&lt;/strong&gt;&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;&lt;strong&gt;PDF&lt;/strong&gt;&lt;/em&gt; and &lt;em&gt;&lt;strong&gt;Supporting Information&lt;/strong&gt;&lt;/em&gt; button above to easily get the original paper and its supporting information.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Preparation of high-efficiency all-perovskite tandem devices</title>
+      <link>/publication/c-2024-mrs-spring-meeting/</link>
+      <pubDate>Tue, 07 May 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/c-2024-mrs-spring-meeting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PEAI Boosts the Efficiency of All-Perovskite Tandem Solar Cells to 26.81%</title>
+      <link>/publication/c-71rd-jsap/</link>
+      <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/c-71rd-jsap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>一种用于制备有机-无机杂化钙钛矿太阳能电池的锂盐溶剂</title>
+      <link>/publication/patent3/</link>
+      <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/patent3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simultaneous Passivation of Perovskite Interfaces at Multiple Active Sites Improves Device Performance: Combining Theory and Experiment</title>
+      <link>/publication/j-the-journal-of-physical-chemistry-letters-1/</link>
+      <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/j-the-journal-of-physical-chemistry-letters-1/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;&lt;strong&gt;Cite&lt;/strong&gt;&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;&lt;strong&gt;PDF&lt;/strong&gt;&lt;/em&gt; and &lt;em&gt;&lt;strong&gt;Supporting Information&lt;/strong&gt;&lt;/em&gt; button above to easily get the original paper and its supporting information.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Covalent triazine reducing the defects by coordination roles and inhibiting I− migration by anion-π interaction for efficient perovskite solar cell</title>
+      <link>/publication/j-chemical-engineering-journal-4/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/j-chemical-engineering-journal-4/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;&lt;strong&gt;Cite&lt;/strong&gt;&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;&lt;strong&gt;PDF&lt;/strong&gt;&lt;/em&gt; and &lt;em&gt;&lt;strong&gt;Supporting Information&lt;/strong&gt;&lt;/em&gt; button above to easily get the original paper and its supporting information.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PEAI-Indeed an Effective Synergistic Modification Material to Improve All Perovskite Tandem Solar Cell Efficiency to Nearly 27%</title>
+      <link>/publication/c-iperop24/</link>
+      <pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/c-iperop24/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Monolayer-modified PTAA facilitates the preparation of high-efficiency wide-bandgap perovskite solar cells and all-perovskite tandem cells with efficiencies exceeding 25%</title>
+      <link>/publication/c-pvsec-34/</link>
+      <pubDate>Thu, 16 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/c-pvsec-34/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>All perovskite tandem solar cells with efficiency over 26.5%</title>
+      <link>/publication/c-mrs-j/</link>
+      <pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/c-mrs-j/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ferrocene Derivatives for Improving the Efficiency and Stability of MA-Free Perovskite Solar Cells from the Perspective of Inhibiting Ion Migration and Releasing Film Stress</title>
+      <link>/publication/j-advanced-science-1/</link>
+      <pubDate>Sun, 22 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/j-advanced-science-1/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;&lt;strong&gt;Cite&lt;/strong&gt;&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;&lt;strong&gt;PDF&lt;/strong&gt;&lt;/em&gt; and &lt;em&gt;&lt;strong&gt;Supporting Information&lt;/strong&gt;&lt;/em&gt; button above to easily get the original paper and its supporting information.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>All perovskite tandem solar cells with an efficiency of over 26.5%</title>
+      <link>/publication/c-84rd-jsap/</link>
+      <pubDate>Sat, 23 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/c-84rd-jsap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>All-Perovskite Tandem Solar Cells Approach 26.5% Efficiency by Employing Wide Bandgap Lead Perovskite Solar Cells with New Monomolecular Hole Transport Layer</title>
+      <link>/publication/j-acs-energy-letters-1/</link>
+      <pubDate>Thu, 24 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/j-acs-energy-letters-1/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;&lt;strong&gt;Cite&lt;/strong&gt;&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;&lt;strong&gt;PDF&lt;/strong&gt;&lt;/em&gt; and &lt;em&gt;&lt;strong&gt;Supporting Information&lt;/strong&gt;&lt;/em&gt; button above to easily get the original paper and its supporting information.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Efficiency Enhancement of Wide Bandgap Lead Perovskite Solar Cells with PTAA Surface-Passivated with Monomolecular Layer from the Viewpoint of PTAA Band Bending</title>
+      <link>/publication/j-acs-applied-materials-interfaces-2/</link>
+      <pubDate>Tue, 22 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/j-acs-applied-materials-interfaces-2/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;&lt;strong&gt;Cite&lt;/strong&gt;&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;&lt;strong&gt;PDF&lt;/strong&gt;&lt;/em&gt; and &lt;em&gt;&lt;strong&gt;Supporting Information&lt;/strong&gt;&lt;/em&gt; button above to easily get the original paper and its supporting information.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Multifunctional and multi-site interfacial buffer layer for efficient and stable perovskite solar cells</title>
+      <link>/publication/j-chemical-engineering-journal-1/</link>
+      <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/j-chemical-engineering-journal-1/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;&lt;strong&gt;Cite&lt;/strong&gt;&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;&lt;strong&gt;PDF&lt;/strong&gt;&lt;/em&gt; and &lt;em&gt;&lt;strong&gt;Supporting Information&lt;/strong&gt;&lt;/em&gt; button above to easily get the original paper and its supporting information.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Perovskite perovskite tandem solar cells with efficiency higher than 26%</title>
+      <link>/publication/c-em-nano2023/</link>
+      <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/c-em-nano2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Perovskite Solar Cells Consisting of PTAA Modified with Monomolecular Layer and Application to All-Perovskite Tandem Solar Cells with Efficiency over 25%</title>
+      <link>/publication/j-advanced-functional-materials-1/</link>
+      <pubDate>Wed, 26 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/j-advanced-functional-materials-1/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;&lt;strong&gt;Cite&lt;/strong&gt;&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;&lt;strong&gt;PDF&lt;/strong&gt;&lt;/em&gt; and &lt;em&gt;&lt;strong&gt;Supporting Information&lt;/strong&gt;&lt;/em&gt; button above to easily get the original paper and its supporting information.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>有机铵盐改性金属氧化物纳米颗粒在正置钙钛矿太阳能电池中的应用及器件的制备方法</title>
+      <link>/publication/patent1/</link>
+      <pubDate>Fri, 07 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/patent1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>一种应用于铅基钙钛矿太阳能电池的界面修饰分子</title>
+      <link>/publication/patent2/</link>
+      <pubDate>Fri, 24 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/patent2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multifunctional additive strategy to stabilize precursor solution and passivate film defects for MA-free perovskite solar cells with an efficiency of 22.75%</title>
+      <link>/publication/c-70rd-jsap/</link>
+      <pubDate>Wed, 15 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/c-70rd-jsap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pb-free perovskite solar cells composed of Sn/Ge(1:1) alloyed perovskite layer prepared by spin-coating</title>
+      <link>/publication/j-applied-physics-express-1/</link>
+      <pubDate>Fri, 10 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/j-applied-physics-express-1/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;&lt;strong&gt;Cite&lt;/strong&gt;&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;&lt;strong&gt;PDF&lt;/strong&gt;&lt;/em&gt; and &lt;em&gt;&lt;strong&gt;Supporting Information&lt;/strong&gt;&lt;/em&gt; button above to easily get the original paper and its supporting information.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A multifunctional additive strategy to stabilize the precursor solution and passivate film defects for MA-free perovskite solar cells with an efficiency of 22.75%</title>
+      <link>/publication/j-materials-today-energy-1/</link>
+      <pubDate>Fri, 24 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/j-materials-today-energy-1/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;&lt;strong&gt;Cite&lt;/strong&gt;&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;&lt;strong&gt;PDF&lt;/strong&gt;&lt;/em&gt; and &lt;em&gt;&lt;strong&gt;Supporting Information&lt;/strong&gt;&lt;/em&gt; button above to easily get the original paper and its supporting information.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Reduced interfacial recombination losses and lead leakage in lead-based perovskite solar cells using 2D/3D perovskite engineering</title>
+      <link>/publication/j-journal-of-power-sources-1/</link>
+      <pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/j-journal-of-power-sources-1/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;&lt;strong&gt;Cite&lt;/strong&gt;&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;&lt;strong&gt;PDF&lt;/strong&gt;&lt;/em&gt; and &lt;em&gt;&lt;strong&gt;Supporting Information&lt;/strong&gt;&lt;/em&gt; button above to easily get the original paper and its supporting information.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Highly efficient MA free perovskite solar cells based on multifunctional interface modification</title>
+      <link>/publication/c-iperop23/</link>
+      <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/c-iperop23/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Functionalized polymer modified buried interface for enhanced efficiency and stability of perovskite solar cells</title>
+      <link>/publication/j-nanoscale-1/</link>
+      <pubDate>Thu, 22 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/j-nanoscale-1/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;&lt;strong&gt;Cite&lt;/strong&gt;&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;&lt;strong&gt;PDF&lt;/strong&gt;&lt;/em&gt; and &lt;em&gt;&lt;strong&gt;Supporting Information&lt;/strong&gt;&lt;/em&gt; button above to easily get the original paper and its supporting information.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Modifying the buried interface with azodicarbonamide for high-efficiency MA-free perovskite solar cells</title>
+      <link>/publication/j-materials-today-energy-2/</link>
+      <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/j-materials-today-energy-2/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;&lt;strong&gt;Cite&lt;/strong&gt;&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;&lt;strong&gt;PDF&lt;/strong&gt;&lt;/em&gt; and &lt;em&gt;&lt;strong&gt;Supporting Information&lt;/strong&gt;&lt;/em&gt; button above to easily get the original paper and its supporting information.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Top-contacts-interface Engineering for High-performance Perovskite Solar Cell with Reducing Lead Leakage</title>
+      <link>/publication/c-pvsec-33/</link>
+      <pubDate>Wed, 16 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/c-pvsec-33/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>In situ lead oxysalt passivation layer for stable and efficient perovskite solar cells</title>
+      <link>/publication/j-chemical-communications-1/</link>
+      <pubDate>Thu, 20 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/j-chemical-communications-1/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;&lt;strong&gt;Cite&lt;/strong&gt;&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;&lt;strong&gt;PDF&lt;/strong&gt;&lt;/em&gt; and &lt;em&gt;&lt;strong&gt;Supporting Information&lt;/strong&gt;&lt;/em&gt; button above to easily get the original paper and its supporting information.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Lead-based perovskite solar cells that are highly efficient and environmentally friendly with lead recycled</title>
+      <link>/publication/c-83rd-jsap/</link>
+      <pubDate>Fri, 23 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/c-83rd-jsap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multistrategy Preparation of Efficient and Stable Environment-Friendly Lead-Based Perovskite Solar Cells</title>
+      <link>/publication/j-acs-applied-materials-interfaces-1/</link>
+      <pubDate>Sat, 30 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/j-acs-applied-materials-interfaces-1/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;&lt;strong&gt;Cite&lt;/strong&gt;&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;&lt;strong&gt;PDF&lt;/strong&gt;&lt;/em&gt;, &lt;em&gt;&lt;strong&gt;Supporting Information&lt;/strong&gt;&lt;/em&gt;, and &lt;em&gt;&lt;strong&gt;Video&lt;/strong&gt;&lt;/em&gt; button above to easily get the original paper and its supporting information.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Interface Modification Strategy by Synergy of Functional Groups for MA-Free Perovskite Solar Cells with Efficiency Exceeding 22%</title>
+      <link>/publication/c-%E7%AC%AC19%E5%9B%9E%E6%AC%A1%E4%B8%96%E4%BB%A3%E3%81%AE%E5%A4%AA%E9%99%BD%E5%85%89%E7%99%BA%E9%9B%BB%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%82%B7%E3%83%B3%E3%83%9B%E3%82%B7%E3%82%A6%E3%83%A0/</link>
+      <pubDate>Tue, 28 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/c-%E7%AC%AC19%E5%9B%9E%E6%AC%A1%E4%B8%96%E4%BB%A3%E3%81%AE%E5%A4%AA%E9%99%BD%E5%85%89%E7%99%BA%E9%9B%BB%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%82%B7%E3%83%B3%E3%83%9B%E3%82%B7%E3%82%A6%E3%83%A0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Top-Contacts-Interface Engineering for High-Performance Perovskite Solar Cell With Reducing Lead Leakage</title>
+      <link>/publication/j-solar-rrl-1/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/j-solar-rrl-1/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;&lt;strong&gt;Cite&lt;/strong&gt;&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;&lt;strong&gt;PDF&lt;/strong&gt;&lt;/em&gt; and &lt;em&gt;&lt;strong&gt;Supporting Information&lt;/strong&gt;&lt;/em&gt; button above to easily get the original paper and its supporting information.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Highly efficient and low hysteresis MA-free perovskite solar cells based on multifunctional oteracil potassium interface modification</title>
+      <link>/publication/c-the-9th-conference-on-science-and-technology-of-emerging-solar-energy-materials/</link>
+      <pubDate>Sat, 07 May 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/c-the-9th-conference-on-science-and-technology-of-emerging-solar-energy-materials/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Highly efficient and low hysteresis methylammonium-free perovskite solar cells based on multifunctional oteracil potassium interface modification</title>
+      <link>/publication/j-chemical-engineering-journal-2/</link>
+      <pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/j-chemical-engineering-journal-2/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;&lt;strong&gt;Cite&lt;/strong&gt;&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;&lt;strong&gt;PDF&lt;/strong&gt;&lt;/em&gt; and &lt;em&gt;&lt;strong&gt;Supporting Information&lt;/strong&gt;&lt;/em&gt; button above to easily get the original paper and its supporting information.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Interfacial defect passivation and stress release by multifunctional KPF6 modification for planar perovskite solar cells with enhanced efficiency and stability</title>
+      <link>/publication/j-chemical-engineering-journal-3/</link>
+      <pubDate>Wed, 17 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/j-chemical-engineering-journal-3/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;&lt;strong&gt;Cite&lt;/strong&gt;&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;&lt;strong&gt;PDF&lt;/strong&gt;&lt;/em&gt; and &lt;em&gt;&lt;strong&gt;Supporting Information&lt;/strong&gt;&lt;/em&gt; button above to easily get the original paper and its supporting information.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>论文作图要点及建议</title>
+      <link>/post/%E7%A7%91%E7%A0%94%E8%AE%BA%E6%96%87%E4%BD%9C%E5%9B%BE%E5%8E%9F%E5%88%99/</link>
+      <pubDate>Tue, 16 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>/post/%E7%A7%91%E7%A0%94%E8%AE%BA%E6%96%87%E4%BD%9C%E5%9B%BE%E5%8E%9F%E5%88%99/</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言：&lt;/h2&gt;
+&lt;p&gt;作图的目标在于将数据清晰并准确地传达给读者。 &lt;strong&gt;“清晰”&lt;/strong&gt; 和 &lt;strong&gt;“准确”&lt;/strong&gt; 是必须要达到的。以下以两幅图为例来说明：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./1.jpg&#34; alt=&#34;jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;图A和图B在字体和线条上有明显的区别。得益于字体和线条的搭配，图B要更为清晰，能更准确地传达信息。
+作图的好坏也取决于 &lt;strong&gt;&lt;span style=&#34;color:red;&#34;&gt;“字体”&lt;/span&gt;&lt;/strong&gt; 和 &lt;strong&gt;&lt;span style=&#34;color:red;&#34;&gt;“线条”&lt;/span&gt;&lt;/strong&gt; 两大要素。
+。在文章的出版稿中，图片有些时候只会占据很少的版面，例如，两列中的一列。
+因此，如果字体太小，线条过细，那么读者将无法辨析图表中的数据。字体放大，线条加粗则可以有效地规避这个问题。
+以下推荐的字体大小和线条粗细之搭配仅供诸位参考学习。&lt;/p&gt;
+&lt;h2 id=&#34;建议&#34;&gt;建议：&lt;/h2&gt;
+&lt;p&gt;作图的准则是 &lt;strong&gt;&lt;span style=&#34;color:red;&#34;&gt;“字不嫌大，线不怕粗”&lt;/span&gt;&lt;/strong&gt; 。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./2.jpg&#34; alt=&#34;jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;图的四条边框的粗细建议在 &lt;strong&gt;“6”&lt;/strong&gt; 左右。其它参数设置如图所示。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./3.jpg&#34; alt=&#34;jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;横纵坐标的字体建议是 &lt;strong&gt;“Times New Roman”&lt;/strong&gt; ，字体大小是 &lt;strong&gt;“37”，加粗。&lt;/strong&gt; 其他参数设置如图所示。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./4.jpg&#34; alt=&#34;jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;坐标轴字体建议 &lt;strong&gt;“Times New Roman”&lt;/strong&gt; ，字体大小是 &lt;strong&gt;“57”，加粗。&lt;/strong&gt; 其他参数设置如图所示。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./5.jpg&#34; alt=&#34;jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;数据曲线粗细建议为 &lt;strong&gt;“3”&lt;/strong&gt; ，符号大小为 &lt;strong&gt;“13”&lt;/strong&gt; 。数据名称字体为 &lt;strong&gt;“Times New Roman”，字体大小为“23”，加粗。&lt;/strong&gt; 其他参数设置如图所示。&lt;/p&gt;
+&lt;h3 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h3&gt;
+&lt;h3 id=&#34;for-your-reference-any-reprint-must-indicate-the-source-which-is-this-website--&#34;&gt;For your reference, any reprint must indicate the source, which is this website. ©️ 🔏&lt;/h3&gt;
+&lt;h3 id=&#34;供您参考任何转载都需表明出处即本网址--&#34;&gt;供您参考，任何转载都需表明出处，即本网址。 ©️ 🔏&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Multifunctional organic ammonium salt-modified SnO2 nanoparticles toward efficient and stable planar perovskite solar cells</title>
+      <link>/publication/j-journal-of-materials-chemistry-a-1/</link>
+      <pubDate>Sun, 28 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/j-journal-of-materials-chemistry-a-1/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;&lt;strong&gt;Cite&lt;/strong&gt;&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;&lt;strong&gt;PDF&lt;/strong&gt;&lt;/em&gt; and &lt;em&gt;&lt;strong&gt;Supporting Information&lt;/strong&gt;&lt;/em&gt; button above to easily get the original paper and its supporting information.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Construction of Ultra-stable Perovskite-Polymer Fiber Membranes by Electrospinning Technology and its Application on Light-Emitting Diodes</title>
+      <link>/publication/j-polymer-international-1/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/j-polymer-international-1/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;&lt;strong&gt;Cite&lt;/strong&gt;&lt;/em&gt; button above to easily export your references in a format suitable for your reference.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;&lt;strong&gt;PDF&lt;/strong&gt;&lt;/em&gt; and &lt;em&gt;&lt;strong&gt;Supporting Information&lt;/strong&gt;&lt;/em&gt; button above to easily get the original paper and its supporting information.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>论文写作及作图规范</title>
+      <link>/post/%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C%E5%8F%8A%E4%BD%9C%E5%9B%BE%E8%A7%84%E8%8C%83/</link>
+      <pubDate>Wed, 12 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>/post/%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C%E5%8F%8A%E4%BD%9C%E5%9B%BE%E8%A7%84%E8%8C%83/</guid>
+      <description>&lt;h3 id=&#34;写作前构思好文章的创新点在哪里&#34;&gt;写作前构思好文章的创新点在哪里。&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;标题&lt;/strong&gt;：要突出文章最亮的点，标题应反复琢磨。一个好的标题可为文章润色不少。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;作者&lt;/strong&gt;：人名在前，姓在后，通讯作者加*号。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;单位&lt;/strong&gt;：要详实，准确，第一单位放在最前。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;正文&#34;&gt;正文&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;小四字体；&lt;span style=&#34;font-family: &#39;Times New Roman&#39;;&#34;&gt;Times New Roman&lt;/span&gt;；双倍行距；标点符号前加空格（% 例外）；正文中&lt;span style=&#34;font-family: &#39;Times New Roman&#39;;&#34;&gt;&lt;i&gt;x&lt;/i&gt;&lt;/span&gt;要斜体；离子符号要插入横杠，如I−，不能直接打“减号”；摄氏度符号要插入，不能用输入法直接打出；&lt;/li&gt;
+&lt;li&gt;例如：&lt;span style=&#34;font-family: &#39;Times New Roman&#39;;&#34;&gt;FA&lt;sub&gt;(1-&lt;i&gt;x&lt;/i&gt;)&lt;/sub&gt;MA&lt;sub&gt;&lt;i&gt;x&lt;/i&gt;&lt;/sub&gt;PbI&lt;sub&gt;3&lt;/sub&gt;&lt;/span&gt;，&lt;span style=&#34;font-family: &#39;Times New Roman&#39;;&#34;&gt;&lt;i&gt;x&lt;/i&gt; = 0.1&lt;/span&gt; 等，比例用小写&lt;span style=&#34;font-family: &#39;Times New Roman&#39;;&#34;&gt;&lt;i&gt;x&lt;/i&gt;&lt;/span&gt;，大写X代表卤素；&lt;span style=&#34;font-family: &#39;Times New Roman&#39;;&#34;&gt;1-&lt;i&gt;x&lt;/i&gt;要括号，且下标；所有符号在英文状态下输入，且&lt;span style=&#34;font-family: &#39;Times New Roman&#39;;&#34;&gt;&lt;i&gt;x&lt;/i&gt; = 0.1&lt;/span&gt;，等号前后有空格；挨着()的不要空格，如（&lt;span style=&#34;font-family: &#39;Times New Roman&#39;;&#34;&gt;&lt;i&gt;x&lt;/i&gt; = 0, 0.1&lt;/span&gt;）。&lt;/li&gt;
+&lt;li&gt;注意：（）和()两种括号，所有符号保证为英文格式下输入。&lt;/li&gt;
+&lt;li&gt;&lt;span style=&#34;font-family: &#39;Times New Roman&#39;;&#34;&gt;&lt;i&gt;x&lt;/i&gt; = 0 – 0.1&lt;/span&gt;，表示一个范围时，连字符左右空格；表示一个整体时不用空格，例如DMSO-d6；organic-inorganic hybrid perovskite。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;参考文献&#34;&gt;参考文献&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;参考文献要按逻辑及出现顺序依次编号；缩写一定要在第一次用的时候给出定义，例如power conversion efficiency (PCE)，术语全称要小写。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;图片&#34;&gt;图片&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;图要求&lt;/strong&gt;：上下对齐，简洁美观，坐标名称32号字体加粗，坐标轴厚度及数据线都用三号线，轴上的数字28号字体加粗；配色美观；文章中图片的引用原则是要标明引文出处，不能修改比例，可以调节大小；可以利用PS将不同文献中的图重新编号，当然编号也要在整篇文章中使用同一格式。章中提到Figure N要统一编号并且最好加粗，这样找起来方便。在标明图片来源时，一般加在图例的最后一句上，并标明Copyright+年份+出版社，如下图所示。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;./1.jpg&#34; alt=&#34;jpg&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;画图过程的逻辑性&#34;&gt;画图过程的逻辑性&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;位置&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;坐标：先相似的图保证骨架一样，如横坐标范围，纵坐标范围，横坐标名称，纵坐标名称位置，可以先调整好一个之后，再用模板。&lt;/li&gt;
+&lt;li&gt;数据画图：调整坐标范围以及数据的纵坐标统一修改，保证图在一定黄金位置，不占满，也不留很多空位，给图例等留下位置。&lt;/li&gt;
+&lt;li&gt;在Origin中title Wavelength / nm 分隔号前后需要空格。&lt;/li&gt;
+&lt;li&gt;所有图都用 / 来表示坐标轴单位。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;颜色&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;数据线颜色配色要统一，好看且清晰。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;输出格式&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Origin输出&lt;/strong&gt;：TIF格式，300DPI，保存后用画图打开，另存为PNG即可。&lt;/li&gt;
+&lt;li&gt;当图处于画布（背景白板）太下方时，输出不全，需要选中该图片，size/speed 中TOP变小。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PS处理几幅图&lt;/strong&gt;：
+&lt;ol&gt;
+&lt;li&gt;新建画布，宽度16cm（输出为全列，8.5cm输出为半列），高度不限，600DPI。然后打开需要画的图，把其他图移到新建画布中，并用control+T固定长宽比，缩放；&lt;/li&gt;
+&lt;li&gt;PS加ABCD（Bold 浑厚10点的A，对应Title28，比较好看），以刻度尺为参考系，因为该图是可以移动的。加入A的位置，以及剪裁的位置都是固定的；&lt;/li&gt;
+&lt;li&gt;查看像素，16cm 宽以及600DPI，而后保存为PSD程序，可供打开，最后再保存TIF，无压缩即可。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Word插图&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;在Word里选项设置插入图片不压缩，220ppi，然后复制黏贴即可。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;参考文献格式&#34;&gt;参考文献格式&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;刊物名称斜体不加粗，缩写正确；年份加粗；卷号斜体；页码不加粗不斜体；格式统一。&lt;/li&gt;
+&lt;li&gt;在提交文稿时要删去待链接的参考文献而替换成文本格式。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;致谢&#34;&gt;致谢&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;funding，测试机构等。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h3&gt;
+&lt;h3 id=&#34;for-your-reference-any-reprint-must-indicate-the-source-which-is-this-website--&#34;&gt;For your reference, any reprint must indicate the source, which is this website. ©️ 🔏&lt;/h3&gt;
+&lt;h3 id=&#34;供您参考任何转载都需表明出处即本网址--&#34;&gt;供您参考，任何转载都需表明出处，即本网址。 ©️ 🔏&lt;/h3&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
